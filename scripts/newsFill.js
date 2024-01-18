@@ -18,7 +18,7 @@ news.forEach( newsUnit => {
         <p class="title">${newsUnit.title}</p>
         <p class="date">${newsUnit.date}</p>
         <p class="text">${newsUnit.text}</p>
-        <a href="${newsUnit.link}" target="_blank">See article</a>
+        ${newsUnit?.link ? `<a href="${newsUnit.link}" target="_blank">See article</a>` : '' }
         </div>
     ${newsUnit?.image ?
     `<div class="img--div">

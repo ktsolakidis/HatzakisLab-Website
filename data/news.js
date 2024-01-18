@@ -1,43 +1,15 @@
 export const news = [
   {
-    date: '27-10-2023',
-    image: 'conference.jpeg',
-    title: "Random Conference for something very important",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
+    date: '08-01-2024',
+    image: 'tania.jpg',
+    title: "Welcome Tania!",
+    text: "We are thrilled to announce that Tania Darphorn will be joining us as our new Center coordinator for the Center for Optimized Oligo Escape and Control of Disease. Tania will ensure the management and day to day running of the Center for Optimized Oligo Escape and Control of Disease - Novo Nordisk Foundation Challenge Grant. The scope of the Center is optimise the delivery of oligonucleotide pharmaceutics and target cardiovascular and metabolic diseases. The Centre will form a bridge between the University of Copenhagen, Harvard Medical School & Boston Children’s Hospital, and Instituto de Medicina Molecular, University of Lisbon.",
   },
   {
-    date: '27-10-2023',
-    image: 'con2.jpeg',
-    title: "Random Conference for something very important",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
-  },
-  {
-    date: '27-10-2023',
-    title: "Same thing but without an image.",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
-  },
-  {
-    date: '27-10-2023',
-    image: 'cat.avif',
-    title: "Random Conference for something very important",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
-  },
-  {
-    date: '27-10-2023',
-    title: "Same thing but without an image.",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
-  },
-  {
-    date: '27-10-2023',
-    image: 'con2.jpeg',
-    title: "Random Conference for something very important",
-    text: "This Wednesday we are having a nice snack & beers session after work @thelab, everybody is welcome for some beer and games, nice conversations and warm wishes about hollidays! The rest of the text is going to be nonsense because I just have to write something in order to test this layout. If you  are still reading you must be very bored. Stop procrastinating now. You have work to do. Still here? I'm gonna tell Nikos.",
-    link: "https://www.youtube.com/watch?v=JxS5E-kZc2s"
+    date: '03-01-2024',
+    image: 'aimilia.jpg',
+    title: "Welcome Aimilia!",
+    text: "We're excited to welcome Aimilia Nousi as our new Facility Manager for the Novo Nordisk Foundation “Center for 4D cell dynamics”. Aimilia will ensure the management and day to day running of the “Center for 4D cell dynamics”, a national facility for interdisciplinary studies in chemistry, physics, biology, biomedicine and other research fields, run by our group.",
   },
 
 ];

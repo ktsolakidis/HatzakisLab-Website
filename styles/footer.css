@@ -15,7 +15,7 @@
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    color: rgb(247, 0, 0);
+    color: rgb(156, 156, 156);
     font-size: 1.2rem;
     width: 20%;
 }
@@ -43,7 +43,7 @@
 
 
 #map > a> img{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 1rem;
     cursor: pointer;
@@ -51,6 +51,7 @@
 
 #uni--logo > img{
     width: 25rem;
+    margin: 1rem;
     cursor: pointer;
 }
 

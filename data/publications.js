@@ -42,7 +42,7 @@ export const publications = [
     {
       img : "https://badges.altmetric.com/?size=128&score=88&types=mabttttf",
       doi: "10.1038/s41467-019-13284-1",
-      title: "A large size-selective DNA nanopore with sensing applications.",
+      title: "A large size-selective DNA nanopore with sensing applications",
       author: "Thomsen, S. P., et al.",
       journal: "Nature Communications",
       pages: "175, 5655",

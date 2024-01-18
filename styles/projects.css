@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: column;
     color: #eaeaea;
-    text-align: left;
+    text-align: justify;
     width: 30%;
 }
 
@@ -77,12 +77,13 @@
 h4{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
+
 }
 
 .project--desc{
     color: rgb(149, 149, 149);
     margin: 0;
-    font-size: .6rem;
+    font-size: 16px;
     list-style-type: none;
 
 }
@@ -97,10 +98,14 @@ li{
     display: flex;
     flex-direction: column;
     color: #eaeaea;
-    text-align: left;
+    text-align: justify;
     width: 30%;
     padding: 0 1rem;
 
+}
+
+.publications > h4{
+    text-align: center;
 }
 
 #fret--text{
@@ -211,7 +216,7 @@ li{
         display: flex;
         flex-direction: column;
         color: #eaeaea;
-        text-align: center;
+        text-align: justify;
         width: 100%;
     }
     
@@ -240,7 +245,7 @@ li{
     .publications > ul{
         list-style-type: none;
         margin: auto;
-        text-align: center;
+        text-align: justify;
         padding: 0;
     }
     
@@ -251,7 +256,7 @@ li{
         align-items: center;
         justify-content: center;
         color: #eaeaea;
-        text-align: center;
+        text-align: justify;
 
         width: 100%;
         padding: 0;

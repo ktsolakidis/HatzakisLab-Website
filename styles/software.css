@@ -80,11 +80,10 @@
 .software--card .text{
     width: 80%;
     margin: 0;
-    font-size: 16;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(126, 126, 126);
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -173,7 +172,7 @@
         font-family: 'Montserrat', sans-serif;
         background-color: rgb(28, 28, 28,.3);
     }
-        
+
     
     .software--card img{
       width: 15rem;
@@ -199,11 +198,11 @@
     .software--card .text{
         width: 80%;
         margin: 0;
-        font-size: 16;
-        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         color: rgb(126, 126, 126);
-        text-align: left;
+        text-align: justify;
     }
     
     

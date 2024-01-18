@@ -97,7 +97,7 @@ video {
 
 
 #learn--more {
-    width: 20%;
+    width: 8%;
     position: absolute;
     /* top: 24rem;
     left: 16.5rem; */
@@ -202,6 +202,7 @@ video {
     letter-spacing: 2px;
     font-weight: 300;
     color: rgb(151, 151, 151);
+    text-align: justify;
 
 }
 
@@ -237,10 +238,10 @@ video {
 
 #whoweare--text {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     width: 70%;
 
 
@@ -256,7 +257,7 @@ video {
 
 
 #whoweare--text >p {
-    text-align: left;
+    text-align: justify;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 300;
@@ -296,8 +297,9 @@ video {
 }
 
 .fund >img{
-    width: 23rem;
-    margin: 2rem;
+    width: 22rem;
+    margin: 3rem;
+
 }
 
 
@@ -464,7 +466,7 @@ i{
         position: absolute;
         /* top: 24rem;
         left: 16.5rem; */
-        top:85vh;
+        top:80vh;
         left: 75vw;
         font-family: 'Open Sans', sans-serif;
         padding: 1rem 2rem;
@@ -524,7 +526,7 @@ i{
     #our--mission {
         width: 100%;
         font-family: 'Open Sans', sans-serif;
-        text-align: left;
+        text-align: justify;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -551,7 +553,7 @@ i{
         letter-spacing: 2px;
         font-weight: 300;
         color: rgb(151, 151, 151);
-        text-align: left;
+        text-align: justify;
     
     }
     
@@ -592,7 +594,7 @@ i{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 70%;
+        width: 85%;
     
     
     }
@@ -607,7 +609,7 @@ i{
     
     
     #whoweare--text >p {
-        text-align: left;
+        text-align: justify;
         font-size: 14px;
         letter-spacing: 2px;
         font-weight: 300;
