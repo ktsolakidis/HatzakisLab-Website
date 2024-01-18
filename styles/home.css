@@ -487,7 +487,7 @@ i{
         margin-top: 10rem;
         box-sizing: border-box;
         background-color: rgb(20, 20, 22);
-        z-index: 3;
+        z-index: 1;
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/mission.png');
         /* background-image: url('/images/mission.png'); */
         background-size: cover;
@@ -550,7 +550,7 @@ i{
         box-sizing: border-box;
         margin-top: 5rem;
         background-color: rgb(20, 20, 22);
-        z-index: 3;
+        z-index: 1;
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/mission.png');
         /* background-image: url('/images/mission.png'); */
         background-size: cover;
@@ -603,7 +603,7 @@ i{
         box-sizing: border-box;
         margin-top: 5rem;
         background-color: rgb(20, 20, 22);
-        z-index: 3;
+        z-index: 1;
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/mission.png');
         /* background-image: url('/images/mission.png'); */
         background-size: cover;
