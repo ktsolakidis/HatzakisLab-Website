@@ -212,8 +212,17 @@ p,li{
         font-family: 'Open Sans', sans-serif;
         font-size: .8rem;
     }
+
+
+.project--desc{
+    color: rgb(149, 149, 149);
+    margin: 0;
+    font-size: .6rem;
+    list-style-type: none;
+
+}
     
-    p,li{
+    li{
         color: rgb(149, 149, 149);
         margin: 0;
         font-size: .6rem;

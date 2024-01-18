@@ -301,6 +301,27 @@ video {
 }
 
 
+@keyframes pulse {
+    0% {
+      transform: scale(1.5);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+
+
+i{
+    transform: scale(1.5);
+    animation: pulse 2s 6;
+    animation-delay: 3s;
+}
+
+
 
 
 
