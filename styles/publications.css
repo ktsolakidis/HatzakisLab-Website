@@ -210,7 +210,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        background: linear-gradient( rgba(255, 255, 255, .97) 60%,rgba(29, 29, 29, .95)), url('../images/publications.png');
+        background: linear-gradient( 180deg,rgba(255, 255, 255, .97) 60%,rgba(29, 29, 29, .95)), url('../images/publications.png');
         background-attachment: fixed;
         background-color: rgb(255, 222, 222);
         border-radius: 1rem;
