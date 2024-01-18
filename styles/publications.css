@@ -17,6 +17,8 @@
 
 
 
+
+
 #our--publications{
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
@@ -40,6 +42,7 @@
 
 
 #publications--container{
+    z-index: 1;
     padding: 3rem;
     box-sizing: border-box;
     width: 80%;
@@ -48,7 +51,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: linear-gradient( rgba(255, 255, 255, .97) 60%,rgba(29, 29, 29, .95)), url('../images/publications.png');
+    background: linear-gradient( rgba(255, 255, 255, .97) 60%,rgba(29, 29, 29, .95));
     background-attachment: fixed;
     background-color: rgb(255, 222, 222);
     border-radius: 1rem;
@@ -117,7 +120,7 @@
     color: rgb(31, 31, 31);
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 2px;
     /* font-style: italic; */
     font-weight: 900;
@@ -274,14 +277,13 @@
         text-decoration: underline;
     }
     
-    .journal{
+    p.journal{
         font-weight: 500;
         margin-top: 0rem;
-        font-size: 1rem;
         color: rgb(31, 31, 31);
         margin: 0;
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 2px;
     
     }
@@ -297,6 +299,10 @@
     
     
     }
+
+
+
+
     
 
 
