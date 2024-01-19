@@ -73,6 +73,10 @@
     width: 30%;
 }
 
+.info > h4{
+    text-align: left;
+}
+
 
 h4{
     font-family: 'Open Sans', sans-serif;
@@ -108,15 +112,19 @@ li{
     text-align: center;
 }
 
-#fret--text{
-    width: 80%;
-}
 
 #extra--fret{
     width: 120%;
     margin: auto;
     margin-left: -3rem;
 }
+
+
+.publications  span{
+    font-style: oblique;
+}
+
+
 
 
 

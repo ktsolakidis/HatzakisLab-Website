@@ -29,7 +29,7 @@ export const members = [
       name: "Tania Darphorn",
       img: "/tania.jpg",
       email: "tsd@chem.ku.dk",
-      desc: "Project Coordinator",
+      desc: "Center Coordinator",
       blank: true
   },
   {
