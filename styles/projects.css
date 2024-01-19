@@ -2,7 +2,7 @@
 #projects{
     height:auto;
     background-color: rgb(23, 22, 22);
-    background: linear-gradient(rgba(0, 0, 0, .77), rgba(0, 0, 0, 1)), url('../images/projects.png');
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 1)), url('../images/projects.png');
     background-attachment: fixed;
     background-size: repeat;
     padding-bottom: 15rem;
@@ -78,17 +78,24 @@
 }
 
 
-h4{
+h4.project--title{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
 
 }
 
-.project--desc{
+h4.publications--title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+p.project--desc{
     color: rgb(149, 149, 149);
     margin: 0;
     font-size: 16px;
     list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
 
 }
 

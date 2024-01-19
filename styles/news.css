@@ -2,7 +2,7 @@
 #news{
         height:auto;
         background-color: rgb(23, 22, 22);
-        background: linear-gradient(rgba(0, 0, 0, .77), rgba(0, 0, 0, 1)), url('../images/projects.png');
+        background: linear-gradient(rgba(0, 0, 0, .77), rgba(0, 0, 0, 1)), url('../images/news.png');
         background-attachment: fixed;
         background-size: repeat;
         padding-bottom: 15rem;
@@ -170,7 +170,7 @@ p.text{
         #news{
             height:auto;
             background-color: rgb(23, 22, 22);
-            background: linear-gradient(rgba(0, 0, 0, .77), rgba(0, 0, 0, 1)), url('../images/projects.png');
+            background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('../images/news.png');
             background-attachment: fixed;
             background-size: repeat;
             padding-bottom: 15rem;
