@@ -1,4 +1,14 @@
 export const publications = [
+    {
+        img: "https://badges.altmetric.com/?size=128&score=153&types=mbttttwf",
+        title: "Single-particle combinatorial multiplexed liposome fusion mediated by DNA",
+        doi: "10.1038/s41557-022-00912-5",
+        author: "Malle, M. G., et al.",
+        journal: "Nature Chemistry",
+        pages: "354-52353",
+        year: 2022,
+        link: "https://www.altmetric.com/details/125924360"
+    },
   {
       img: "https://badges.altmetric.com/?size=128&score=82&types=mvtttttw",
       title: "The dopamine transporter antiports potassium to increase the uptake of dopamine",
@@ -8,16 +18,6 @@ export const publications = [
       pages: "13, 2446",
       year: 2023,
       link: "https://www.nature.com/articles/s41467-022-30154-5"
-  },
-  {
-      img: "https://badges.altmetric.com/?size=128&score=153&types=mbttttwf",
-      title: "Single-particle combinatorial multiplexed liposome fusion mediated by DNA",
-      doi: "10.1038/s41557-022-00912-5",
-      author: "Malle, M. G., et al.",
-      journal: "Nature Chemistry",
-      pages: "354-52353",
-      year: 2022,
-      link: "https://www.altmetric.com/details/125924360"
   },
   {
       img: "https://badges.altmetric.com/?size=128&score=82&types=mvtttttw",
