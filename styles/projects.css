@@ -58,7 +58,6 @@
     margin-top: 0rem;
     font-family: 'Sarabun', sans-serif;
     background-size: cover;
-    background-color: rgb(199, 73, 73);
     box-sizing: border-box;
     margin: auto;
 
@@ -212,18 +211,17 @@ li{
     
     
     .project--card > img {
-        width: 100%;
+        width: 110%;
         height: auto;
         cursor: pointer;
         display: flex;
-        object-fit: cover;
+        object-fit: contain;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 0rem;
+        margin-top: -2rem;
         font-family: 'Sarabun', sans-serif;
         background-size: cover;
-        background-color: rgb(199, 73, 73);
         box-sizing: border-box;
         margin: auto;
     
@@ -238,59 +236,73 @@ li{
         width: 100%;
     }
     
+    .info h4{
+        text-align: justify;
+    }
     
-    h4{
+    h4.project--title{
+        font-size: 1rem;
+        text-align: left;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h4.publications--title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    
+    }
+    
+    p.project--desc{
+        color: rgb(149, 149, 149);
+        margin: 0;
+        font-size: 14px;
+        list-style-type: none;
         font-family: 'Open Sans', sans-serif;
-        font-size: .8rem;
+        text-align: justify;
+    
     }
 
-
-.project--desc{
-    color: rgb(149, 149, 149);
-    margin: 0;
-    font-size: .6rem;
-    list-style-type: none;
-
-}
+    ul{
+        list-style-type: none;
+        text-align: justify;
+        padding: 0;
+    }
     
     li{
         color: rgb(149, 149, 149);
         margin: 0;
-        font-size: .6rem;
-        list-style-type: none;
-    }
-
-    .publications > ul{
-        list-style-type: none;
-        margin: auto;
-        text-align: justify;
-        padding: 0;
+        font-size: 14px;
     }
     
     
     .publications{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         color: #eaeaea;
         text-align: justify;
-
         width: 100%;
-        padding: 0;
+        padding: 0rem;
     
     }
     
-    #fret--text{
-        width: 100%;
+    .publications > h4{
+        text-align: center;
     }
+    
     
     #extra--fret{
-        width: 100%;
+        width: 120%;
         margin: auto;
-        margin-top: .5rem;
+        margin-left: -3rem;
     }
     
+    
+    .publications  span{
+        font-style: oblique;
+    }
     
     
 

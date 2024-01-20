@@ -11,7 +11,6 @@ let menuIsOpen = false;
 
 
 
-console.log('kalimerra re si filarako mu');
 
 const toggleMenu = () => {
 

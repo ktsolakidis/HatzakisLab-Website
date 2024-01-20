@@ -211,7 +211,7 @@ body {
     
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 300;
         color: rgb(168, 168, 168);
         width: 60%;
@@ -238,7 +238,7 @@ body {
     
     
     .member--card {
-        width: 10rem;
+        width: 15rem;
         height: 18rem;
         padding: 1rem;
         display: flex;
@@ -253,12 +253,12 @@ body {
     
     .member--name {
         font-size: 1.1rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
         margin: 0;
         color: rgb(165, 165, 165);
         width: 100%;
         padding: .3rem 1rem;
-        font-weight: 800;
+        font-weight: 350;
         border-radius: .5rem;
         /* background-color: #B73B37;
         background-color: #931F1D; */
@@ -314,7 +314,7 @@ body {
         font-size: .87rem;
         color: rgb(110, 110, 110);
         margin: 0;
-        margin-top: .5rem;
+        margin-top: .8rem;
         border-radius: .5rem;
         width: 15rem;
         padding: .1rem .5rem;
