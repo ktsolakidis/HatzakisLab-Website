@@ -1,6 +1,11 @@
 export const news = [
   {
     date: 'January 2024',
+    title: "Congratulations Guangze Li !",
+    text: `Congratulations to Guangze Li for successfully defending her MSc thesis titled 'Assay for Sequencing Individual Sialyl Lewis X Oligosaccharides” !`,
+  },
+  {
+    date: 'January 2024',
     image: 'tania.jpg',
     title: "Welcome Tania!",
     text: "We are thrilled to announce that Tania Darphorn will be joining us as our new Center coordinator for the Center for Optimized Oligo Escape and Control of Disease. Tania will ensure the management and day to day running of the Center for Optimized Oligo Escape and Control of Disease - Novo Nordisk Foundation Challenge Grant. The scope of the Center is optimise the delivery of oligonucleotide pharmaceutics and target cardiovascular and metabolic diseases. The Centre will form a bridge between the University of Copenhagen, Harvard Medical School & Boston Children’s Hospital, and Instituto de Medicina Molecular, University of Lisbon.",
@@ -42,13 +47,18 @@ export const news = [
   {
     date: 'August 2023',
     title: "Congratulations to Marcus W. Dreisler for defending his MSc thesis!",
-    text: "",
+    text: "Congratulations to Marcus W. Dreisler on the successful defense of his MSc thesis titled 'Quantitative Analysis of Cellular Internalization by Dye Exclusion and Optimized Single Particle Detection'!",
+  },
+  {
+    date: 'July 2023',
+    title: "Congratulations to Harris Sideris for successfully defending his MSc thesis!",
+    text: "Steen W. Bender has successfully defended his MSc thesis, introducing SEMORE, an AI framework transforming super-resolution analysis. His work is recognized by 'Nature Communications' 2024.",
   },
 
   {
     date: 'June 2023',
     title: "Congratulations Steen!",
-    text: "Steen W. Bender has successfully defended his MSc thesis, introducing SEMORE, an AI framework transforming super-resolution analysis. His work is recognized by 'Nature Communications' 2024.!",
+    text: "Steen W. Bender has successfully defended his MSc thesis, introducing SEMORE, an AI framework transforming super-resolution analysis. His work is recognized by 'Nature Communications' 2024.",
   },
 
   {
@@ -67,7 +77,7 @@ export const news = [
 
   {
     date: 'April 2023',
-    title: "Congratulations Nikos! A milestone was reached!",
+    title: `Congratulations to Nikos as he embarks on a prestigious journey as visiting professor at Harvard University!`,
     text: "Nikos Hatzakis is beginning a new chapter in his academic career as a visiting professor in Harvard medical school. He will be in the department of Pediatrics in the program of cellular and Molecular Biomedicine associated the Harvard cell biology and Boston Children hospital. His work has focused on understanding the molecular mechanisms of protein biomolecular recognition and how this is translated to cellular responses, by combining states of the single molecule microscopy and quantitative, often machine learning driven, image analysis. At Harvard, he will continue to explore these fascinating areas of biology, in tight collaboration with Tom Kirchhausen and colleagues across disciplines to advance our understanding of cellular processes.",
   },
 
@@ -82,7 +92,7 @@ export const news = [
     date: "March 2023",
     image: 'sara.jpg',
     title: "Welcome Sara!",
-    text: "Welcome, Sara, as our new PhD student! We're excited to have you on board and can't wait to see your contributions!",
+    text: "Welcome, Sara V. Bleshøy, as our new PhD student! We're excited to have you on board and can't wait to see your contributions!",
   },
 
 
