@@ -64,8 +64,7 @@ export const news = [
   {
     date: 'June 2023',
     title: "Congratulations Emily!",
-    text: `Warmest congratulations to Emily W. Sørensen on the successful defense of her MSc thesis titled "Characteristics of Savinase Function Revealed by Synchronous Recording of Binding and Catalysis of Individual Proteases." Emily's research offers new understanding of protease activity, showcasing her hard work and academic skill.
-    !`,
+    text: `Warmest congratulations to Emily W. Sørensen on the successful defense of her MSc thesis titled "Characteristics of Savinase Function Revealed by Synchronous Recording of Binding and Catalysis of Individual Proteases." Emily's research offers new understanding of protease activity, showcasing her hard work and academic skill.`,
   },
 
   {
