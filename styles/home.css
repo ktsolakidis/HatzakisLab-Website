@@ -650,9 +650,18 @@ i{
         font-family: 'Poppins', sans-serif;
         text-align: left;
     }
+
+
+    .fund{
+        display: flex;
+        align-items: center;
+        padding: 3rem 0rem;
+    }
     
     .fund >img{
         width: 85%;
+        margin: auto;
+
     }
     
     
