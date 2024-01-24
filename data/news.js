@@ -2,7 +2,7 @@ export const news = [
   {
     date: 'January 2024',
     title: "Congratulations Guangze Li !",
-    text: `Congratulations to Guangze Li for successfully defending her MSc thesis titled 'Assay for Sequencing Individual Sialyl Lewis X Oligosaccharides” !`,
+    text: `Congratulations to Guangze Li for successfully defending her MSc thesis titled "Assay for Sequencing Individual Sialyl Lewis X Oligosaccharides” !`,
   },
   {
     date: 'January 2024',
