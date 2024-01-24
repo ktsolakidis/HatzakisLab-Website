@@ -52,7 +52,7 @@ export const news = [
   {
     date: 'July 2023',
     title: "Congratulations to Harris Sideris for successfully defending his MSc thesis!",
-    text: "Steen W. Bender has successfully defended his MSc thesis, introducing SEMORE, an AI framework transforming super-resolution analysis. His work is recognized by 'Nature Communications' 2024.",
+    text: "",
   },
 
   {
