@@ -208,8 +208,8 @@ video {
 
 
 #mission--image {
-    width: 60%;
-    object-fit: cover;
+    width: 70%;
+    object-fit: contain;
     border-radius: .5rem;
 }
 
