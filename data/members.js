@@ -106,11 +106,16 @@ export const members = [
       blank: true
   },
   {
+    name: "Bo Volf Brøchner",
+    img: "/Bo.jpg",
+    desc: "Visiting Ph.D. Fellow from Jorgens Kjems group ",
+    blank: true
+  },
+  {
       name: "Konstantinos Tsolakidis",
       img: "/kostas.jpg",
       email: "kt@chem.ku.dk",
       linkedin: "https://www.linkedin.com/in/konstantinos-tsolakidis/",
-
       desc: "Software Engineer",
       blank: true
   },
@@ -157,40 +162,20 @@ export const members = [
       blank: true
   },
   {
-      name: "Harris Sideris",
+      name: "Katerina Vougiatzi",
+      img: "Katerina.jpg",
+      desc: "Master Student",
+      blank: true
+  },
+  {
+      name: "Wiktor Kuzajeski",
       img: "/newfigure.jpg",
       desc: "Master Student",
       blank: true
   },
   {
-      name: "Guangze Li",
-      twitter: "Guangze",
-      img: "/Guangze.jpg",
-      desc: "Master Student",
-      linkedin: "guangze-li-066873229",
-      blank: true
-  },
-  {
-      name: "Alexis Kouvelas",
-      img: "/Alexis2.jpg",
-      desc: "Erasmus+ Fellow",
-      blank: true
-  },
-  {
-      name: "Nikoleta Palioudaki",
-      img: "/Nikoleta.jpg",
-      desc: "Erasmus+ Fellow",
-      blank: true
-  },
-  {
-      name: "Despoina Moraiti",
-      img: "/Despoina.jpg",
-      desc: "Erasmus+ Fellow",
-      blank: true
-  },
-  {
-      name: "Theofannis",
-      img: "/newfigure.jpg",
+      name: "Georgios Bolis",
+      img: "/Yorgos.jpg",
       desc: "Erasmus+ Fellow",
       blank: true
   },
@@ -201,13 +186,13 @@ export const members = [
       blank: true
   },
   {
-      name: "Emily She",
-      img: "/emily-she1.jpg",
+      name: "Julie Bernt Frederiksen",
+      img: "/newfigure.jpg",
       desc: "Bachelor Student",
       blank: true
   },
   {
-      name: "Freya Björk Reinhold",
+      name: "Josefine Bjørcklund",
       img: "/newfigure.jpg",
       desc: "Bachelor Student",
       blank: true
