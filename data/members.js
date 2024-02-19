@@ -163,7 +163,7 @@ export const members = [
   },
   {
       name: "Katerina Vougiatzi",
-      img: "Katerina.jpg",
+      img: "/Katerina.jpg",
       desc: "Master Student",
       blank: true
   },
