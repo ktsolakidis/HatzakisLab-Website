@@ -1,5 +1,10 @@
 export const news = [
   {
+    date: 'krjhe 2024',
+    title: "Congratulations Valia!",
+    text: `Valia is now the new Website Master. γκουντ λακ” !`,
+  },
+  {
     date: 'January 2024',
     title: "Congratulations Guangze Li !",
     text: `Congratulations to Guangze Li for successfully defending her MSc thesis titled "Assay for Sequencing Individual Sialyl Lewis X Oligosaccharides” !`,
