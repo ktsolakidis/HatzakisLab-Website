@@ -108,7 +108,7 @@ export const members = [
   {
     name: "Bo Volf Brøchner",
     img: "/Bo.jpg",
-    desc: "Visiting Ph.D. Fellow from Jorgens Kjems group ",
+    desc: "Visiting Ph.D. Fellow from Jørgen Kjems group ",
     blank: true
   },
   {
