@@ -1,13 +1,17 @@
 export const news = [
   {
     date: 'February 2024',
-    image: 'BPS2024.jpg',
     title: "Our Research Group's Exciting Trip to the Biophysical Society 2024 in Philadelphia!",
     text: `We're excited to share that our research group, led by Nikos Hatzakis, had a fantastic time at the Biophysical Society Annual Meeting 2024 in Philadelphia! Along with Nikos, our postdoc Errika Voutyritsa, two PhD students, and two master's students joined this renowned science event. 
+    
     Nikos and Errika gave engaging talks at the conference, sharing their latest research with other scientists and attendees. Their presentations sparked interesting discussions and were a great opportunity to showcase our group's work. 
+    
     Our students also had their moment to shine. The PhD and master's students presented their research through posters. These presentations covered a range of biophysics topics and were a perfect chance for them to get feedback and insights from experts in the field. 
+    
     But it wasn't all work! The conference was a fun experience for everyone. Our students especially enjoyed meeting other researchers and students from around the world. It was a great opportunity for them to learn new things, see different perspectives, and get inspired for their own projects. 
+    
     Overall, the Biophysical Society Annual Meeting 2024 was not just a scientific event, but also a chance for growth, learning, and making great memories. We're proud of what our team has achieved and excited about the opportunities that came from attending this event. We can't wait to see what comes next in our research adventures!
+    
     Stay tuned for more news from our group!`,
   },
   {
