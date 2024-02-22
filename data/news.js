@@ -1,6 +1,27 @@
 export const news = [
   {
     date: 'February 2024',
+    title: "Welcome Katerina!",
+    text: `We are very happy to welcome Katerina Vougiatzi as a Master student!`,
+    image:'Katerina.jpg'
+  },
+  {
+    date: 'February 2024',
+    title: "Welcome Georgios!",
+    text: `We are very happy to welcome Georgios Bolis as an Erasmus+ Fellow!`,
+  },
+  {
+    date: 'February 2024',
+    title: "Welcome Wiktor!",
+    text: `We are very happy to welcome Wiktor Kuzajeski as a Master student!`,
+  },
+  {
+    date: 'January 2024',
+    title: "Welcome Julie!",
+    text: `We are very happy to welcome Julie Bernt Frederiksen as a Bachelor student!`,
+  },
+  {
+    date: 'February 2024',
     title: "Our Research Group's Exciting Trip to the Biophysical Society 2024 in Philadelphia!",
     text: `We're excited to share that our research group, led by Nikos Hatzakis, had a fantastic time at the Biophysical Society Annual Meeting 2024 in Philadelphia! Along with Nikos, our postdoc Errika Voutyritsa, two PhD students, and two master's students joined this renowned science event. 
     
