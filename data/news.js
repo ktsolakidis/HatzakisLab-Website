@@ -2,7 +2,8 @@ export const news = [
   {
     date: 'February 2024',
     title: "Welcome Katerina!",
-    text: `We are very happy to welcome Katerina Vougiatzi as a Master student!`,
+    text: `We are very happy to welcome Katerina Vougiatzi as a Master student!
+     Katerina will be working with us on POR mediates biased metabolism.`,
     image:'Katerina.jpg'
   },
   {
@@ -18,7 +19,7 @@ export const news = [
   {
     date: 'January 2024',
     title: "Welcome Julie!",
-    text: `We are very happy to welcome Julie Bernt Frederiksen as a Bachelor student!`,
+    text: `We are very happy to welcome Julie Bernt Frederiksen as a Bachelor student! Julie will be working with us on oligonucleotide pharmaceutics delivery.`,
   },
   {
     date: 'February 2024',
