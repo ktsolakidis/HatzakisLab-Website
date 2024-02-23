@@ -115,7 +115,7 @@ export const members = [
       name: "Konstantinos Tsolakidis",
       img: "/kostas.jpg",
       email: "kt@chem.ku.dk",
-      linkedin: "https://www.linkedin.com/in/konstantinos-tsolakidis/",
+      linkedin: "/konstantinos-tsolakidis/",
       desc: "Software Engineer",
       blank: true
   },
