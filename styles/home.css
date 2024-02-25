@@ -528,14 +528,16 @@ i{
     }
     
     #our--mission {
-        width: 100%;
+        width: 90%;
         font-family: 'Open Sans', sans-serif;
         text-align: justify;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
         color: #ffffff;
         position: relative;
+        margin: auto;
 
     
     
