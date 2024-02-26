@@ -1,6 +1,7 @@
 export const news = [
   {
     date: 'February 2024',
+    image: 'Nikos_BPS.jpg',
     title: "Our Research Group's Exciting Trip to the Biophysical Society 2024 in Philadelphia!",
     text: `We're excited to share that our research group, led by Nikos Hatzakis, had a fantastic time at the Biophysical Society Annual Meeting 2024 in Philadelphia! Along with Nikos, our postdoc Errika Voutyritsa, two PhD students, and two master's students joined this renowned science event. 
     
@@ -23,11 +24,13 @@ export const news = [
   },
   {
     date: 'February 2024',
+    image: 'Yorgos.jpg',
     title: "Welcome Georgios!",
     text: `We are very happy to welcome Georgios Bolis as an Erasmus+ Fellow!`,
   },
   {
     date: 'February 2024',
+    image: 'Wiktor.jpg',
     title: "Welcome Wiktor!",
     text: `We are very happy to welcome Wiktor Kuzajeski as a Master student!`,
   },
@@ -35,6 +38,12 @@ export const news = [
     date: 'February 2024',
     title: "Welcome Julie!",
     text: `We are very happy to welcome Julie Bernt Frederiksen as a Bachelor student! Julie will be working with us on oligonucleotide pharmaceutics delivery.`,
+  },
+  {
+    date: 'February 2024',
+    image: 'Bo.jpg',
+    title: "Welcome Bo!",
+    text: "Welcome to the team, Bo! Excited to have you on the team as a visiting PhD student from Jørgen Kjems group!",
   },
   {
     date: 'January 2024',
