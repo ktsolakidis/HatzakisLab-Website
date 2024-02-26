@@ -169,7 +169,7 @@ export const members = [
   },
   {
       name: "Wiktor Kuzajeski",
-      img: "/newfigure.jpg",
+      img: "/Wiktor.jpg",
       desc: "Master Student",
       blank: true
   },
