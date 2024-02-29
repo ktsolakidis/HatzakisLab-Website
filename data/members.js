@@ -174,11 +174,17 @@ export const members = [
       blank: true
   },
   {
-      name: "Georgios Bolis",
+      name: "George Bolis",
       img: "/Yorgos.jpg",
       desc: "Erasmus+ Fellow",
       blank: true
   },
+  {
+    name: "George Kyriakakis",
+    img: "/newfigure.jpg",
+    desc: "Erasmus+ Fellow",
+    blank: true
+},
   {
       name: "Molly Jean Maud Turner",
       img: "/Molly2.jpg",
