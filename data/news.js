@@ -1,4 +1,11 @@
 export const news = [
+  
+  {
+    date: 'February 2024',
+    title: "Breakthrough Work from a Great Student!",
+    text: `Warm Congratulations to Steen Bender for Your Paper in #NatureCommunications from Your MSc Thesis!`,
+    link : "https://www.nature.com/articles/s41467-024-46106-0"
+  },
   {
     date: 'February 2024',
     image: 'Nikos_BPS.jpg',

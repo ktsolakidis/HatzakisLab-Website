@@ -1,5 +1,15 @@
 export const publications = [
     {
+        img: "https://nature.altmetric.com/details/160120440",
+        title: "SEMORE: SEgmentation and MORphological fingErprinting by machine learning automates super-resolution data analysis",
+        doi: "10.1038/s41467-024-46106-0",
+        author: "Bender, W. B. S., et al.",
+        journal: "Nature Communications",
+        pages: "15, 1763",
+        year: 2024,
+        link: "https://www.nature.com/articles/s41467-024-46106-0"
+    },
+    {
         img: "https://badges.altmetric.com/?size=128&score=153&types=mbttttwf",
         title: "Single-particle combinatorial multiplexed liposome fusion mediated by DNA",
         doi: "10.1038/s41557-022-00912-5",
