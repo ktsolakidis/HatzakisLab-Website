@@ -1,6 +1,6 @@
 export const publications = [
     {
-        img: "https://badges.altmetric.com/?style=donut&amp;score=16&amp;types=tttttttt&amp;size=242&amp;svg",
+        img: "https://badges.altmetric.com/?style=donut&amp;score=16&amp;types=tttttttt&amp;size=242&amp",
         title: "SEMORE: SEgmentation and MORphological fingErprinting by machine learning automates super-resolution data analysis",
         doi: "10.1038/s41467-024-46106-0",
         author: "Bender, W. B. S., et al.",
