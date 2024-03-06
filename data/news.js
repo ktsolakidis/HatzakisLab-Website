@@ -2,8 +2,12 @@ export const news = [
   
   {
     date: 'February 2024',
-    title: "Breakthrough Work from a Great Student!",
-    text: `Warm congratulations to Steen Bender for his paper in #NatureCommunications from his MSc Thesis!`,
+    title: "Excited for our recent paper in #Naturecommun",
+    text: `Warm congratulations especially to Steen Bender who drove the work under the tight and excellent supervision by Jacob Kæstel-Hansen Congratulation also to Marcus Dreisler and Min Zhang.
+
+    #SEMORE is a general analysis platform based on #machinelearning  for semiautomatic analysis and classification of #superresolution data. #SEMORE uses a multi-layered density-based clustering module to dissect biological assemblies and a morphology #fingerprinting module for quantification by multiple geometric and kinetics-based descriptors. Based on these Semore is capable of operation at densely populated clusters and also for live super resolution imaging . Being a time-aware framework it can also support the rise of 4D super-resolution data
+    
+    The work was performed at Department of Chemistry, University of Copenhagen, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, part of ISBUC UCPH and funded by Novo Nordisk Foundation as well as VELUX FONDEN. `,
     link : "https://www.nature.com/articles/s41467-024-46106-0"
   },
   {
