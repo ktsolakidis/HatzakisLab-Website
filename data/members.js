@@ -121,7 +121,7 @@ export const members = [
   },
   {
       name: "Steen W. Bender",
-      desc: "Master Student",
+      desc: "Ph.D. Fellow",
       img: "/STEEEEEEEEEEN1.jpg",
       blank: true
   },
@@ -133,7 +133,7 @@ export const members = [
   },
   {
       name: "Marcus Winther Dreisler",
-      desc: "Master Student",
+      desc: "Ph.D. Fellow",
       img: "/Marcus1.jpg",
       blank: true
   },
