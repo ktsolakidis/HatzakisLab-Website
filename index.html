@@ -42,10 +42,21 @@
         // Function to set the favicon based on dark mode
         function setFavicon() {
             var favicon = document.querySelector('link[rel="icon"]');
+            let appleList = document.querySelectorAll('link[rel="apple-touch-icon"]')
             if (isDarkMode()) {
                 favicon.href = "./images/newlogo.png"; // Change to dark mode favicon
+                appleList.forEach(element => {
+       
+                    element.href = "./images/newlogo.png"
+                    
+                });
             } else {
                 favicon.href = './images/newlogo_dark.png'; // Change to light mode favicon
+                appleList.forEach(element => {
+                    element.href = "./images/newlogo_dark.png"
+
+                    
+                });
             }
         }
     
@@ -57,8 +68,6 @@
             setFavicon();
         });
     </script>
-
-
 
 </head>
 
