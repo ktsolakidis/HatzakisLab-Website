@@ -20,7 +20,7 @@ export const members = [
   },
   {
       name: "Aimilia Nousi",
-      img: "/aimilia.jpg",
+      img: "/Aimilia_2.jpg",
       email: "ain@chem.ku.dk",
       desc: "Facility Manager",
       blank: true
@@ -47,7 +47,7 @@ export const members = [
   },
   {
       name: "Artu Breuer",
-      img: "/artu.jpg",
+      img: "/Artu_2.jpg",
       email: "artu.breuer@chem.ku.dk",
       desc: "Post-doctoral Fellow",
       blank: true
@@ -113,7 +113,7 @@ export const members = [
   },
   {
       name: "Konstantinos Tsolakidis",
-      img: "/kostas.jpg",
+      img: "/Kostas_3.jpg",
       email: "kt@chem.ku.dk",
       linkedin: "/konstantinos-tsolakidis/",
       desc: "Software Engineer",
