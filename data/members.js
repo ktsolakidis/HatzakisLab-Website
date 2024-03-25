@@ -185,6 +185,12 @@ export const members = [
     desc: "Erasmus+ Fellow",
     blank: true
 },
+{
+    name: "Daniela Spaho",
+    img: "/newfigure.jpg",
+    desc: "Erasmus+ Fellow",
+    blank: true
+},
   {
       name: "Molly Jean Maud Turner",
       img: "/Molly2.jpg",
