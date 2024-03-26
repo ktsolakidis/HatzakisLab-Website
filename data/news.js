@@ -1,6 +1,12 @@
 export const news = [
   
   {
+    date: 'March 2024',
+    image: 'InaDefense.jpg',
+    title: "Congratulations to Ina",
+    text: `Big congratulations to Ina for successfully defending her thesis on 'Tracking Individual Enzymes and Their Interactions with Lipid Membranes'. Amazing work!`,
+  },
+  {
     date: 'February 2024',
     title: "Excited for our recent paper in #Naturecommun",
     text: `Warm congratulations especially to Steen Bender who drove the work under the tight and excellent supervision by Jacob Kæstel-Hansen Congratulation also to Marcus Dreisler and Min Zhang.
