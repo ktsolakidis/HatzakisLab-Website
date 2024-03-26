@@ -75,7 +75,7 @@ export const news = [
   },
   {
     date: 'January 2024',
-    image: 'aimilia.jpg',
+    image: 'Aimilia_2.jpg',
     title: "Welcome Aimilia!",
     text: "We're excited to welcome Aimilia Nousi as our new Facility Manager for the Novo Nordisk Foundation “Center for 4D cell dynamics”. Aimilia will ensure the management and day to day running of the “Center for 4D cell dynamics”, a national facility for interdisciplinary studies in chemistry, physics, biology, biomedicine and other research fields, run by our group.",
   },
