@@ -3,7 +3,7 @@ export const news = [
   {
     date: 'March 2024',
     image: 'InaDefense.jpg',
-    title: "Congratulations to Ina",
+    title: "Congratulations to Ina!",
     text: `Big congratulations to Ina for successfully defending her thesis on 'Tracking Individual Enzymes and Their Interactions with Lipid Membranes'. Amazing work!`,
   },
   {
