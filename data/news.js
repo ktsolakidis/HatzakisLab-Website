@@ -1,4 +1,11 @@
 export const news = [
+    
+  {
+    date: 'March 2024',
+    image:'ina1.jpg',
+    title: "Congratulations to Ina on successfully defending her thesis!",
+    text: `Heartfelt congratulations to Ina on successfully defending her thesis! Her remarkable work on 'Tracking the Spatiotemporal Localization of Individual Enzymes and Their Interaction with Lipid Membranes' represents a significant contribution to the field. Well done on this impressive achievement!`,
+  },
   
   {
     date: 'March 2024',
