@@ -10,7 +10,7 @@ export const news = [
     date: 'March 2024',
     image: 'Daniela.jpg',
     title: "Welcome Daniela!",
-    text: `"We are happy to announce Daniela Spaho as our new Erasmus+ Fellow! Welcome aboard, Daniela!"`,
+    text: `We are happy to announce Daniela Spaho as our new Erasmus+ Fellow! Welcome aboard, Daniela!`,
   },
   {
     date: 'February 2024',
