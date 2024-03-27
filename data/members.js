@@ -181,13 +181,13 @@ export const members = [
   },
   {
     name: "George Kyriakakis",
-    img: "/newfigure.jpg",
+    img: "/GiorgosK.jpg",
     desc: "Erasmus+ Fellow",
     blank: true
 },
 {
     name: "Daniela Spaho",
-    img: "/newfigure.jpg",
+    img: "/Daniela.jpg",
     desc: "Erasmus+ Fellow",
     blank: true
 },
