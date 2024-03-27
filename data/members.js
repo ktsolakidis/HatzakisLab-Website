@@ -174,13 +174,13 @@ export const members = [
       blank: true
   },
   {
-      name: "George Bolis",
+      name: "Georgios Bolis",
       img: "/Yorgos.jpg",
       desc: "Erasmus+ Fellow",
       blank: true
   },
   {
-    name: "George Kyriakakis",
+    name: "Georgios Kyriakakis",
     img: "/GiorgosK.jpg",
     desc: "Erasmus+ Fellow",
     blank: true

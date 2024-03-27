@@ -7,6 +7,18 @@ export const news = [
     text: `Heartfelt congratulations to Ina on successfully defending her thesis! Her remarkable work on 'Tracking the Spatiotemporal Localization of Individual Enzymes and Their Interaction with Lipid Membranes' represents a significant contribution to the field. Well done on this impressive achievement!`,
   },
   {
+    date: 'March 2024',
+    image: 'Daniela.jpg',
+    title: "Welcome Daniela!",
+    text: `"We are happy to announce Daniela Spaho as our new Erasmus+ Fellow! Welcome aboard, Daniela!"`,
+  },
+  {
+    date: 'February 2024',
+    image: 'GiorgosK.jpg',
+    title: "Welcome Georgios!",
+    text: `Exciting news! Georgios Kyriakakis joins us as an Erasmus+ Fellow. A warm welcome to Georgios!`,
+  },
+  {
     date: 'February 2024',
     title: "Excited for our recent paper in #Naturecommun",
     text: `Warm congratulations especially to Steen Bender who drove the work under the tight and excellent supervision by Jacob Kæstel-Hansen Congratulation also to Marcus Dreisler and Min Zhang.
