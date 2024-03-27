@@ -126,20 +126,20 @@ export const members = [
       blank: true
   },
   {
+    name: "Marcus Winther Dreisler",
+    desc: "Ph.D. Fellow",
+    img: "/Marcus1.jpg",
+    blank: true
+},
+  {
       name: "Thanos Oikonomou",
       desc: "Master Student",
       img: "/thanos.jpg",
       blank: true
   },
   {
-      name: "Marcus Winther Dreisler",
-      desc: "Ph.D. Fellow",
-      img: "/Marcus1.jpg",
-      blank: true
-  },
-  {
       name: "Valia Margaritaki",
-      img: "/valia.jpg",
+      img: "/Valia_2.jpg",
       desc: "Master Student",
       blank: true
   },
