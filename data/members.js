@@ -158,6 +158,7 @@ export const members = [
   {
       name: "Emilie Elisabeth Milan Nielsen",
       img: "/emilie-nielsen1.jpg",
+      
       desc: "Master Student",
       blank: true
   },
@@ -180,16 +181,16 @@ export const members = [
       blank: true
   },
   {
-    name: "Georgios Kyriakakis",
-    img: "/GiorgosK.jpg",
-    desc: "Erasmus+ Fellow",
-    blank: true
+     name: "Georgios Kyriakakis",
+     img: "/GiorgosK.jpg",
+     desc: "Erasmus+ Fellow",
+     blank: true
 },
 {
-    name: "Daniela Spaho",
-    img: "/Daniela.jpg",
-    desc: "Erasmus+ Fellow",
-    blank: true
+     name: "Daniela Spacho",
+     img: "/Daniela.jpg",
+     desc: "Erasmus+ Fellow",
+     blank: true
 },
   {
       name: "Molly Jean Maud Turner",
