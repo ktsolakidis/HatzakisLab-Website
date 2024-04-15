@@ -70,7 +70,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     color: rgb(165, 165, 165);
-    width: auto;
+    width: 115%;
     padding: .3rem 1rem;
     font-weight: 800;
     border-radius: .5rem;
@@ -256,7 +256,7 @@ body {
         font-family: 'Poppins', sans-serif;
         margin: 0;
         color: rgb(165, 165, 165);
-        width: 100%;
+        width: 113%;
         padding: .3rem 1rem;
         font-weight: 350;
         border-radius: .5rem;
