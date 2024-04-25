@@ -29,7 +29,7 @@ members.forEach(member => {
         ? `<li><a href="mailto:${ member.email }"><i class="fa fa-envelope-square"></i></a></li>` : ``
     }
     ${member?.twitter
-        ? `<li><a href="http://twitter.com/${ member.twitter }" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>`
+        ? `<li><a href="http://twitter.com/${ member.twitter }" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>`
         : ''
     }
     ${member?.facebook
