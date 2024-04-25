@@ -158,7 +158,6 @@ export const members = [
   {
       name: "Emilie Elisabeth Milan Nielsen",
       img: "/emilie-nielsen1.jpg",
-      
       desc: "Master Student",
       blank: true
   },
