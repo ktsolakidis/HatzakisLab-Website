@@ -186,7 +186,7 @@ export const members = [
      blank: true
 },
 {
-     name: "Daniela Spacho",
+     name: "Ntaniela Spacho",
      img: "/Daniela.jpg",
      desc: "Erasmus+ Fellow",
      blank: true
