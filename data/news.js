@@ -1,6 +1,24 @@
 export const news = [
     
   {
+    date: 'June 2024',
+    image:'graduation.png',
+    title: "Well Done, Julie!",
+    text: `A huge congratulations to Julie on successfully defending her BSc thesis! Her excellent research has showcased her dedication and skill in the field. Julie, this is an outstanding accomplishment—well done!`,
+  },
+  {
+    date: 'June 2024',
+    image:'valia_defense.jpeg',
+    title: "Congratulations on your thesis defense, Valia!",
+    text: `Warmest congratulations to Valia on the successful defense of her thesis! Her outstanding research on 'Direct observation of lipid nanoparticles loading efficiency, release kinetics, and cellular entry pathways by single particle studies' marks a major milestone in the field. This is a truly remarkable achievement. Well done, Valia!`,
+  },
+  {
+    date: 'June 2024',
+    image:'graduation.png',
+    title: "Congratulations Thanos!",
+    text: `We are thrilled to congratulate Thanos on the successful defense of his Master’s thesis! His innovative work demonstrates a high level of expertise and dedication. Thanos, your hard work and commitment have truly paid off—congratulations on this remarkable achievement!`,
+  },
+  {
     date: 'March 2024',
     image:'ina1.jpg',
     title: "Congratulations to Ina on successfully defending her thesis!",
@@ -9,8 +27,8 @@ export const news = [
   {
     date: 'March 2024',
     image: 'Daniela.jpg',
-    title: "Welcome Daniela!",
-    text: `We are happy to announce Daniela Spaho as our new Erasmus+ Fellow! Welcome aboard, Daniela!`,
+    title: "Welcome Ntaniela!",
+    text: `We are happy to announce Ntaniela Spacho as our new Erasmus+ Fellow! Welcome aboard, Ntaniela!`,
   },
   {
     date: 'February 2024',
