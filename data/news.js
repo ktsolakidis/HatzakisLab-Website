@@ -2,7 +2,7 @@ export const news = [
     
   {
     date: 'June 2024',
-    image:'Jacob_defense.jpeg',
+    image:'Jacob_defense.jpg',
     title: "Celebrating Jacob Kæstel-Hansen’s PhD Achievement and Next Steps!",
     text: `Warmest congratulations to Jacob on successfully defending his PhD thesis on Accelerating Biological Discoveries by Decoding Single-Particle Spatiotemporal Dynamics Using Machine Learning. Jacob has been a crucial part of our lab since his bachelor’s studies, and what a remarkable journey it has been. His unwavering dedication and relentless hard work, has led to groundbreaking ideas and high-impact publications, establishing a solid foundation for machine learning research in our lab. Jacob's exceptional contributions have paved the way for his next adventure at MIT. He will be greatly missed, but we are immensely proud of his achievements and confident that he will continue to excel and inspire in his future endeavors.
     
