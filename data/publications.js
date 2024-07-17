@@ -10,6 +10,16 @@ export const publications = [
         link: "https://www.nature.com/articles/s41467-024-46106-0"
     },
     {
+        img: "https://badges.altmetric.com/?style=donut&amp;score=4&amp;types=tttttttt&amp;size=242);%20background-image:%20linear-gradient(transparent,%20transparent),%20url(https://badges.altmetric.com/?style=donut&amp;score=4&amp;types=tttttttt&amp;size=242&amp;svg",
+        title: " Defect-Engineered Metal–Organic Frameworks as Nanocarriers for Pharmacotherapy: Insights into Intracellular Dynamics at The Single Particle Level",
+        doi: "10.1002/adma.202405898",
+        author: "Huang, G., et al.",
+        journal: "Advanced Materials",
+        pages: "2405898",
+        year: 2024,
+        link: "https://onlinelibrary.wiley.com/doi/10.1002/adma.202405898"
+    },
+    {
         img: "https://badges.altmetric.com/?size=128&score=153&types=mbttttwf",
         title: "Single-particle combinatorial multiplexed liposome fusion mediated by DNA",
         doi: "10.1038/s41557-022-00912-5",
