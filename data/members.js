@@ -56,7 +56,7 @@ export const members = [
       name: "Jacob Kæstel-Hansen",
       linkedin: "jacob-kæstel-hansen-502008115",
       img: "/jakob-hansen.jpg",
-      desc: "Post-doctoral Fellow",
+      desc: "Ph.D. Fellow",
       email: "jkh@chem.ku.dk",
       twitter: "KaestelHansen",
       blank: true
@@ -64,7 +64,7 @@ export const members = [
   {
       name: "Ge Huang",
       img: "/huang1.jpg",
-      desc: "Post-doctoral Fellow",
+      desc: "Ph.D. Fellow",
       blank: true
   },
   {
@@ -133,22 +133,16 @@ export const members = [
 },
   {
       name: "Thanos Oikonomou",
-      desc: "Ph.D. Fellow",
+      desc: "Master Student",
       img: "/thanos.jpg",
       blank: true
   },
   {
       name: "Valia Margaritaki",
       img: "/Valia_2.jpg",
-      desc: "Ph.D. Fellow",
+      desc: "Master Student",
       blank: true
   },
-  {
-    name: "Georgios Kyriakakis",
-    img: "/GiorgosK.jpg",
-    desc: "Ph.D. Fellow"w",
-    blank: true
-},
   {
       name: "Ina Surkamp",
       img: "/newfigure.jpg",
@@ -185,6 +179,12 @@ export const members = [
       desc: "Erasmus+ Fellow",
       blank: true
   },
+  {
+     name: "Georgios Kyriakakis",
+     img: "/GiorgosK.jpg",
+     desc: "Erasmus+ Fellow",
+     blank: true
+},
 {
      name: "Ntaniela Spacho",
      img: "/Daniela.jpg",
