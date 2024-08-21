@@ -10,7 +10,7 @@ export const publications = [
         link: "https://www.nature.com/articles/s41467-024-46106-0"
     },
     {
-        img: "https://badges.altmetric.com/?style=donut&amp;score=4&amp;types=tttttttt&amp;size=242",
+        img: "https://badges.altmetric.com/?style=donut&score=15&types=mttttttt&size=242&svg",
         title: " Defect-Engineered Metal–Organic Frameworks as Nanocarriers for Pharmacotherapy: Insights into Intracellular Dynamics at The Single Particle Level",
         doi: "10.1002/adma.202405898",
         author: "Huang, G., et al.",
