@@ -70,7 +70,7 @@ export const publications = [
       link: "https://www.nature.com/articles/s41467-019-13284-1"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&score=1&types=tttttttt",
+      img: "https://badges.altmetric.com/?style=donut&amp;score=5&amp;types=aaattttt&amp;size=242&amp;svg",
       doi: "10.1021/acsami.9b19644",
       title: "Ultrasmall TPGS–PLGA Hybrid Nanoparticles for Site-Specific Delivery of Antibiotics into Pseudomonas aeruginosa Biofilms in Lungs.",
       author: "Wan, F., et al.",
