@@ -30,7 +30,7 @@ export const publications = [
         link: "https://www.altmetric.com/details/125924360"
     },
   {
-      img: "https://badges.altmetric.com/?size=128&score=82&types=mvtttttw",
+      img: "https://badges.altmetric.com/?size=180&amp;score=63&amp;types=mtttttt1"
       title: "The dopamine transporter antiports potassium to increase the uptake of dopamine",
       doi: "10.1038/s41467-022-30154-5",
       author: "Schmidt, S. G., et al.",
@@ -70,7 +70,7 @@ export const publications = [
       link: "https://www.nature.com/articles/s41467-019-13284-1"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&score=1&types=tttttttt",
+      img: "https://badges.altmetric.com/?size=128&amp;score=5&amp;types=aaattttt"
       doi: "10.1021/acsami.9b19644",
       title: "Ultrasmall TPGS–PLGA Hybrid Nanoparticles for Site-Specific Delivery of Antibiotics into Pseudomonas aeruginosa Biofilms in Lungs.",
       author: "Wan, F., et al.",
@@ -100,7 +100,7 @@ export const publications = [
       link: "https://www.cell.com/cell/fulltext/S0092-8674(18)31401-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867418314016%3Fshowall%3Dtrue"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&score=95&types=mbttttf1",
+      img: "https://badges.altmetric.com/?style=donut&amp;score=97&amp;types=mbtttwf1&amp;size=242&amp;svg"
       doi: "10.1126/science.aag2347",
       title: "Characterization of a dynamic metabolon producing the defense compound dhurrin in sorghum",
       author: "Laursen, T. et al.",
