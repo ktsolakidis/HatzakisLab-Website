@@ -70,7 +70,7 @@ export const publications = [
       link: "https://www.nature.com/articles/s41467-019-13284-1"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&amp;score=5&amp;types=aaattttt"
+      img: "https://badges.altmetric.com/?size=128&score=1&types=tttttttt", 
       doi: "10.1021/acsami.9b19644",
       title: "Ultrasmall TPGS–PLGA Hybrid Nanoparticles for Site-Specific Delivery of Antibiotics into Pseudomonas aeruginosa Biofilms in Lungs.",
       author: "Wan, F., et al.",
@@ -100,7 +100,7 @@ export const publications = [
       link: "https://www.cell.com/cell/fulltext/S0092-8674(18)31401-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867418314016%3Fshowall%3Dtrue"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&score=95&types=mbttttf1", 
+      img: "https://badges.altmetric.com/?size=128&score=95&types=mbttttf1",
       doi: "10.1126/science.aag2347",
       title: "Characterization of a dynamic metabolon producing the defense compound dhurrin in sorghum",
       author: "Laursen, T. et al.",
