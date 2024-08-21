@@ -10,7 +10,7 @@ export const publications = [
         link: "https://www.nature.com/articles/s41467-024-46106-0"
     },
     {
-        img: "https://badges.altmetric.com/?style=donut&score=15&types=mttttttt&size=242&svg",
+        img: "https://badges.altmetric.com/?style=donut&amp;score=4&amp;types=tttttttt&amp;size=242&svg",
         title: " Defect-Engineered Metal–Organic Frameworks as Nanocarriers for Pharmacotherapy: Insights into Intracellular Dynamics at The Single Particle Level",
         doi: "10.1002/adma.202405898",
         author: "Huang, G., et al.",
@@ -30,7 +30,7 @@ export const publications = [
         link: "https://www.altmetric.com/details/125924360"
     },
   {
-      img: "https://badges.altmetric.com/?size=180&amp;score=63&amp;types=mtttttt1"
+      img: "https://badges.altmetric.com/?size=128&score=82&types=mvtttttw",
       title: "The dopamine transporter antiports potassium to increase the uptake of dopamine",
       doi: "10.1038/s41467-022-30154-5",
       author: "Schmidt, S. G., et al.",
@@ -70,7 +70,7 @@ export const publications = [
       link: "https://www.nature.com/articles/s41467-019-13284-1"
   },
   {
-      img: "https://badges.altmetric.com/?size=128&score=1&types=tttttttt", 
+      img: "https://badges.altmetric.com/?size=128&score=1&types=tttttttt",
       doi: "10.1021/acsami.9b19644",
       title: "Ultrasmall TPGS–PLGA Hybrid Nanoparticles for Site-Specific Delivery of Antibiotics into Pseudomonas aeruginosa Biofilms in Lungs.",
       author: "Wan, F., et al.",
