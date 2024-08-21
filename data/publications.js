@@ -30,7 +30,7 @@ export const publications = [
         link: "https://www.altmetric.com/details/125924360"
     },
   {
-      img: "https://badges.altmetric.com/?size=128&score=82&types=mvtttttw",
+      img: "https://badges.altmetric.com/?style=donut&amp;score=63&amp;types=mtttttt1&amp;size=242&amp;svg",
       title: "The dopamine transporter antiports potassium to increase the uptake of dopamine",
       doi: "10.1038/s41467-022-30154-5",
       author: "Schmidt, S. G., et al.",
