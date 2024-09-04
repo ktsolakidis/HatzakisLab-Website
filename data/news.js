@@ -1,6 +1,12 @@
 export const news = [
     
   {
+    date: 'July 2024',
+    image:'graduation.png',
+    title: "Congratulations to Ge Huang on Successfully Defending His PhD Thesis!",
+    text: `Warmest congratulations to Huang on successfully defending his PhD thesis titled "Nanomaterial Frameworks for Drug Delivery and Biosensing: A Single-Particle Perspective." Huang has been an essential member of our lab, and it’s been incredible to witness his dedication and hard work throughout his journey. His research has resulted in significant discoveries and publications in high-impact journals, making important contributions to the fields of drug delivery and biosensing. We are thrilled that Huang will continue with us as a postdoctoral fellow for the next three months, and we look forward to the great work he will continue to do. Congratulations again, **Huang**, on this fantastic achievement!`,
+  },
+  {
     date: 'June 2024',
     image:'Jacob_defense.jpg',
     title: "Celebrating Jacob Kæstel-Hansen’s PhD Achievement and Next Steps!",
