@@ -1,5 +1,28 @@
 export const news = [
-    
+  {
+    date: 'September 2024',
+    image: 'GiorgosK.jpg',
+    title: "Welcome to the Lab, Giorgos",
+    text: "We’re excited to have you kick off your PhD journey here. Looking forward to working on amazing research together!",
+  },
+  {
+    date: 'September 2024',
+    image: 'STEEEEEEEEEEN1.jpg',
+    title: "Welcome Aboard, Steen!",
+    text: "We’re thrilled to have you begin your PhD journey with us. Let’s get started on some exciting research and discoveries together!",
+  },  
+  {
+    date: 'August 2024',
+    image: 'Valia_2.jpg',
+    title: "A Warm Welcome to Valia!",
+    text: "We’re delighted to have you join us for your PhD journey. Let’s dive into some great research together and make a difference!",
+  },
+  {
+    date: 'August 2024',
+    image: 'thanos.jpg',
+    title: "Excited to Welcome Thanos!",
+    text: "We're so happy to have you here to start your PhD journey. Let’s get ready for some exciting and impactful research ahead!",
+  },
   {
     date: 'July 2024',
     image:'graduation.png',
@@ -31,6 +54,12 @@ export const news = [
     image:'graduation.png',
     title: "Congratulations Thanos!",
     text: `We are thrilled to congratulate Thanos on the successful defense of his Master’s thesis! His innovative work demonstrates a high level of expertise and dedication. Thanos, your hard work and commitment have truly paid off—congratulations on this remarkable achievement!`,
+  },
+  {
+    date: 'June 2024',
+    image: 'Marcus1.jpg',
+    title: "Welcome to the team, Marcus!",
+    text: "We're thrilled to have you join us as you begin your PhD journey. Looking forward to all the exciting research we'll accomplish together!",
   },
   {
     date: 'March 2024',
