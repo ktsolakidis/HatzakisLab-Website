@@ -13,7 +13,7 @@ export const news = [
   }, 
   {
     date: 'August 2024',
-    image: '.jpg',
+    image: 'DHL_2024.jpg',
     title: "Hatzakis Lab at DHL Staffeten 2024",
     text: "",
   }, 
