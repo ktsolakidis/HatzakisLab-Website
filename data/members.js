@@ -106,10 +106,10 @@ export const members = [
       blank: true
   },
   {
-    name: "Bo Volf Brøchner",
-    img: "/Bo.jpg",
-    desc: "Visiting Ph.D. Fellow from Jørgen Kjems group ",
-    blank: true
+      name: "Bo Volf Brøchner",
+      img: "/Bo.jpg",
+      desc: "Visiting Ph.D. Fellow from Jørgen Kjems group ",
+      blank: true
   },
   {
       name: "Konstantinos Tsolakidis",
@@ -126,58 +126,64 @@ export const members = [
       blank: true
   },
   {
-    name: "Marcus Winther Dreisler",
-    desc: "Ph.D. Fellow",
-    img: "/Marcus1.jpg",
-    blank: true
+     name: "Marcus Winther Dreisler",
+     desc: "Ph.D. Fellow",
+     img: "/Marcus1.jpg",
+     blank: true
 },
   {
-      name: "Thanos Oikonomou",
-      desc: "Ph.D. Fellow",
-      img: "/thanos.jpg",
-      blank: true
+     name: "Thanos Oikonomou",
+     desc: "Ph.D. Fellow",
+     img: "/thanos.jpg",
+     blank: true
   },
   {
-      name: "Valia Margaritaki",
-      img: "/Valia_2.jpg",
-      desc: "Ph.D. Fellow",
-      blank: true
+     name: "Valia Margaritaki",
+     img: "/Valia_2.jpg",
+     desc: "Ph.D. Fellow",
+     blank: true
   },
   {
     name: "Georgios Kyriakakis",
     img: "/GiorgosK.jpg",
     desc: "Ph.D. Fellow",
     blank: true
-},
-  {
-      name: "Ina Surkamp",
-      img: "/newfigure.jpg",
-      desc: "Master Student",
-      blank: true
   },
   {
-      name: "Xenia Quaas",
-      img: "/Xenia.jpg",
-      desc: "Master Student",
-      blank: true
+     name: "Xenia Quaas",
+     img: "/Xenia.jpg",
+     desc: "Master Student",
+     blank: true
   },
   {
-      name: "Emilie Elisabeth Milan Nielsen",
-      img: "/emilie-nielsen1.jpg",
-      desc: "Master Student",
-      blank: true
+     name: "Emilie Elisabeth Milan Nielsen",
+     img: "/emilie-nielsen1.jpg",
+     desc: "Master Student",
+     blank: true
   },
   {
-      name: "Katerina Vougiatzi",
-      img: "/Katerina.jpg",
-      desc: "Master Student",
-      blank: true
+     name: "Katerina Vougiatzi",
+     img: "/Katerina.jpg",
+     desc: "Master Student",
+     blank: true
   },
   {
-      name: "Wiktor Kuzajewski",
-      img: "/Wiktor.jpg",
-      desc: "Master Student",
-      blank: true
+     name: "Wiktor Kuzajewski",
+     img: "/Wiktor.jpg",
+     desc: "Master Student",
+     blank: true
+  },
+  {
+    name: "Georgios Sevastakis",
+    img: "/GSev.jpg",
+    desc: "Master Student",
+    blank: true
+  },
+  {
+    name: "Antonio Maschio",
+    img: "/Antonio.jpg",
+    desc: "Master Student",
+    blank: true
   },
   {
       name: "Georgios Bolis",
@@ -191,22 +197,4 @@ export const members = [
      desc: "Erasmus+ Fellow",
      blank: true
 },
-  {
-      name: "Molly Jean Maud Turner",
-      img: "/Molly2.jpg",
-      desc: "Bachelor Student",
-      blank: true
-  },
-  {
-      name: "Julie Bernt Frederiksen",
-      img: "/newfigure.jpg",
-      desc: "Bachelor Student",
-      blank: true
-  },
-  {
-      name: "Josefine Bjørcklund",
-      img: "/newfigure.jpg",
-      desc: "Bachelor Student",
-      blank: true
-  }
 ];

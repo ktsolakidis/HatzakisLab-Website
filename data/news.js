@@ -10,7 +10,13 @@ export const news = [
     image: 'STEEEEEEEEEEN1.jpg',
     title: "Welcome Aboard, Steen!",
     text: "We’re thrilled to have you begin your PhD journey with us. Let’s get started on some exciting research and discoveries together!",
-  },  
+  }, 
+  {
+    date: 'August 2024',
+    image: '.jpg',
+    title: "Hatzakis Lab at DHL Staffeten 2024",
+    text: "",
+  }, 
   {
     date: 'August 2024',
     image: 'Valia_2.jpg',
