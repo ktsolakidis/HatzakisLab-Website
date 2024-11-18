@@ -106,12 +106,6 @@ export const members = [
       blank: true
   },
   {
-      name: "Bo Volf Brøchner",
-      img: "/Bo.jpg",
-      desc: "Visiting Ph.D. Fellow from Jørgen Kjems group ",
-      blank: true
-  },
-  {
       name: "Konstantinos Tsolakidis",
       img: "/Kostas_2.jpg",
       email: "kt@chem.ku.dk",
