@@ -69,7 +69,7 @@ export const news = [
   },
   {
     date: 'May 2024',
-    image: 'BBQ24.jpg',
+    image: 'BBQ24.JPG',
     title: "Annual Hatzakis Lab BBQ!",
     text: ``,
   },
