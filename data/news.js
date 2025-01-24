@@ -68,6 +68,12 @@ export const news = [
     text: "We're thrilled to have you join us as you begin your PhD journey. Looking forward to all the exciting research we'll accomplish together!",
   },
   {
+    date: 'May 2024',
+    image: 'BBQ24.jpg',
+    title: "Annual Hatzakis Lab BBQ!",
+    text: ``,
+  },
+  {
     date: 'March 2024',
     image:'ina1.jpg',
     title: "Congratulations to Ina on successfully defending her thesis!",
