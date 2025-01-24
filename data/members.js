@@ -62,8 +62,8 @@ export const members = [
       blank: true
   },
   {
-      name: "Ge Huang",
-      img: "/huang1.jpg",
+      name: "Janni Mortensen",
+      img: "/Janni.jpg",
       desc: "Post-doctoral Fellow",
       blank: true
   },
@@ -146,8 +146,14 @@ export const members = [
   {
      name: "Emilie Elisabeth Milan Nielsen",
      img: "/emilie-nielsen1.jpg",
-     desc: "Master Student",
+     desc: "Research Assistant",
      blank: true
+  },
+  {
+    name: "Georgios Bolis",
+    img: "/Yorgos.jpg",
+    desc: "Lab Assistant",
+    blank: true
   },
   {
      name: "Katerina Vougiatzi",
@@ -174,9 +180,39 @@ export const members = [
     blank: true
   },
   {
-      name: "Georgios Bolis",
-      img: "/Yorgos.jpg",
-      desc: "Erasmus+ Fellow",
+      name: "Anton Pedersen",
+      img: "/newfigure.jpg",
+      desc: "Master Student",
       blank: true
+  },
+  {
+    name: "Sascha Valentin Brown",
+    img: "/newfigure.jpg",
+    desc: "Master Student",
+    blank: true
+  },
+  {
+    name: "Thaleia Konstantinidou",
+    img: "/newfigure.jpg",
+    desc: "Master Student",
+    blank: true
+  },
+  {
+    name: "Theodor Redvall",
+    img: "/Theodor.jpg",
+    desc: "Bachelor Student",
+    blank: true
+  },
+  {
+    name: "August Baggesen Hilger",
+    img: "/newfigure.jpg",
+    desc: "Bachelor Student",
+    blank: true
+  },
+  {
+    name: "Laura Boiesen Wedendahl",
+    img: "/newfigure.jpg",
+    desc: "Bachelor Student",
+    blank: true
   },
 ];
