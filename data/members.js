@@ -192,6 +192,12 @@ export const members = [
     blank: true
   },
   {
+    name: "Freya Reinhold",
+    img: "/newfigure.jpg",
+    desc: "Master Student",
+    blank: true
+  },  
+  {
     name: "Thaleia Konstantinidou",
     img: "/newfigure.jpg",
     desc: "Master Student",
