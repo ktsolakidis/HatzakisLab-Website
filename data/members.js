@@ -20,7 +20,7 @@ export const members = [
   },
   {
       name: "Aimilia Nousi",
-      img: "/Aimilia_2.jpg",
+      img: "/Aimilia.jpg",
       email: "ain@chem.ku.dk",
       desc: "Facility Manager",
       blank: true
@@ -63,7 +63,7 @@ export const members = [
   },
   {
       name: "Janni Mortensen",
-      img: "/Janni.jpg",
+      img: "/Janni_2.jpg",
       desc: "Post-doctoral Fellow",
       blank: true
   },
@@ -77,7 +77,7 @@ export const members = [
   },
   {
       name: "Frank Høgh Schulz",
-      img: "/frank.jpg",
+      img: "/Frank_2.jpg",
       linkedin: "frank-høgh-schulz-884719b1",
       orcid: "0000-0002-0118-4388",
       email: "fhs@chem.ku.dk",
@@ -87,7 +87,7 @@ export const members = [
   },
   {
       name: "Sara Vogt Bleshøy",
-      img: "/sara3.jpg",
+      img: "/Sara.jpg",
       email: "svb@chem.ku.dk",
       desc: "Ph.D. Fellow",
       blank: true
@@ -187,13 +187,13 @@ export const members = [
   },
   {
     name: "Sascha Valentin Brown",
-    img: "/newfigure.jpg",
+    img: "/Sascha.jpg",
     desc: "Master Student",
     blank: true
   },
   {
     name: "Freya Reinhold",
-    img: "/newfigure.jpg",
+    img: "/Freya.jpg",
     desc: "Master Student",
     blank: true
   },  
@@ -205,19 +205,19 @@ export const members = [
   },
   {
     name: "Theodor Redvall",
-    img: "/Theodor.jpg",
+    img: "/Theo.jpg",
     desc: "Bachelor Student",
     blank: true
   },
   {
     name: "August Baggesen Hilger",
-    img: "/newfigure.jpg",
+    img: "/August.jpg",
     desc: "Bachelor Student",
     blank: true
   },
   {
     name: "Laura Boiesen Wedendahl",
-    img: "/newfigure.jpg",
+    img: "/Laura.jpg",
     desc: "Bachelor Student",
     blank: true
   },
