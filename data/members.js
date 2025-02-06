@@ -20,7 +20,7 @@ export const members = [
   },
   {
       name: "Aimilia Nousi",
-      img: "/Aimilia.jpg",
+      img: "/Aimilia_kx.jpg",
       email: "ain@chem.ku.dk",
       desc: "Facility Manager",
       blank: true
