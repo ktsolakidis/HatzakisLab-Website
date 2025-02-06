@@ -87,7 +87,7 @@ export const members = [
   },
   {
       name: "Sara Vogt Bleshøy",
-      img: "/Sara.jpg",
+      img: "/Sara_nej.jpg",
       email: "svb@chem.ku.dk",
       desc: "Ph.D. Fellow",
       blank: true
