@@ -19,17 +19,17 @@ export const members = [
       blank: true
   },
   {
+    name: "Tania Darphorn",
+    img: "/tania.jpg",
+    email: "tsd@chem.ku.dk",
+    desc: "Center Coordinator",
+    blank: true
+  },  
+  {
       name: "Aimilia Nousi",
       img: "/Aimilia_kx.jpg",
       email: "ain@chem.ku.dk",
       desc: "Facility Manager",
-      blank: true
-  },
-  {
-      name: "Tania Darphorn",
-      img: "/tania.jpg",
-      email: "tsd@chem.ku.dk",
-      desc: "Center Coordinator",
       blank: true
   },
   {
