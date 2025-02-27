@@ -13,12 +13,6 @@ export const news = [
   },
   {
     date: 'February 2025',
-    title: "Congratulations on your talk at the Biophysical Society Emily!",
-    image: 'Emily_BPS.jpg',
-    text: "A huge congratulations to Emily for her outstanding presentation on ACS catalysis paper at the Biophysical Society meeting in Los Angeles 2025! Her hard work, dedication, and deep expertise truly shone through, and we couldn't be prouder.",
-  },
-  {
-    date: 'February 2025',
     title: "6 million DKK grant by Lundbeck Fonden ",
     text: "We are so happy to announce that our organization has been awarded a 6 million DKK grant by Lundbeck Fonden. This generous contribution underscores Lundbeck Fonden’s confidence in our mission and our potential to drive meaningful change.",
   },
