@@ -1,5 +1,41 @@
 export const news = [
   {
+    date: 'February 2025',
+    title: "Hatzakis Lab at Biophysical Society 2025 - Los Angeles",
+    image: 'BPS_2025_group.jpg',
+
+  },
+  {
+    date: 'February 2025',
+    title: "Congratulations on your talk at the Biophysical Society Emily!",
+    image: 'Emily_BPS.jpg',
+    text: "A huge congratulations to Emily for her outstanding presentation on ACS catalysis paper at the Biophysical Society meeting in Los Angeles 2025! Her hard work, dedication, and deep expertise truly shone through, and we couldn't be prouder.",
+  },
+  {
+    date: 'February 2025',
+    title: "Congratulations on your talk at the Biophysical Society Emily!",
+    image: 'Emily_BPS.jpg',
+    text: "A huge congratulations to Emily for her outstanding presentation on ACS catalysis paper at the Biophysical Society meeting in Los Angeles 2025! Her hard work, dedication, and deep expertise truly shone through, and we couldn't be prouder.",
+  },
+  {
+    date: 'February 2025',
+    title: "6 million DKK grant by Lundbeck Fonden ",
+    text: "We are so happy to announce that our organization has been awarded a 6 million DKK grant by Lundbeck Fonden. This generous contribution underscores Lundbeck Fonden’s confidence in our mission and our potential to drive meaningful change.",
+  },
+  {
+    date: 'January 2025',
+    image: 'advanced_materials.jpg',
+    title: "Congratulations, Huang!",
+    text: "Congratulations on your paper on Advanced Materials, Huang! What an achievement! An innovative approach on Nanocarriers for Pharmacotherapy.",
+    link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202405898"
+  },
+  {
+    date: 'January 2025',
+    image: 'Janni.jpg',
+    title: "Welcome, Janni!",
+    text: "Welcome to the team, Janni Mortensen! We're excited to have you with us as our new postdoc. Looking forward to great things ahead!",
+  },
+  {
     date: 'September 2024',
     image: 'GiorgosK.jpg',
     title: "Welcome to the Lab, Giorgos",
