@@ -3,7 +3,7 @@ export const news = [
     date: 'February 2025',
     title: "Hatzakis Lab at Biophysical Society 2025 - Los Angeles",
     image: 'BPS_2025_group.jpg',
-
+    text: "",
   },
   {
     date: 'February 2025',
