@@ -205,7 +205,7 @@ export const members = [
   },
   {
     name: "Vasilis Papageorgiou",
-    img: "/newfigure.jpg",
+    img: "/Vasilis.jpg",
     desc: "Erasmus+ Student",
     blank: true
   },
