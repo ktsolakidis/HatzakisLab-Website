@@ -181,7 +181,7 @@ export const members = [
   },
   {
       name: "Anton Pedersen",
-      img: "/newfigure.jpg",
+      img: "/Anton.jpg",
       desc: "Master Student",
       blank: true
   },
@@ -201,6 +201,12 @@ export const members = [
     name: "Thaleia Konstantinidou",
     img: "/newfigure.jpg",
     desc: "Master Student",
+    blank: true
+  },
+  {
+    name: "Vasilis Papageorgiou",
+    img: "/newfigure.jpg",
+    desc: "Erasmus+ Student",
     blank: true
   },
   {
