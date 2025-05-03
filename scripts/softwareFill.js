@@ -8,6 +8,7 @@ logo.style.opacity = '1'
 
 softwares.forEach(soft => {
 
+    
     softwaresContainer.insertAdjacentHTML('beforeend',
         `<div class="software--card">
         <img src="../images/software/${soft.img}" alt="kostas">
