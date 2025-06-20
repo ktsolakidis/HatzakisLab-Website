@@ -1,5 +1,11 @@
 export const news = [
   {
+    date: 'May 2025',
+    title: "Chemistry Gala 2025",
+    image: 'KUGalla-226.jpg',
+    text: "",
+  },
+  {
     date: 'February 2025',
     title: "Hatzakis Lab at Biophysical Society 2025 - Los Angeles",
     image: 'BPS_2025_group.jpg',
