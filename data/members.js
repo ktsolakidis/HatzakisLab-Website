@@ -144,16 +144,22 @@ export const members = [
     blank: true
   },
   {
+    name: "Georgios Bolis",
+    img: "/Yorgos.jpg",
+    desc: "Ph.D. Fellow",
+    blank: true
+  },
+  {
+    name: "Victoria Kladny",
+    img: "/newfigure.jpg",
+    desc: "Ph.D. Fellow",
+    blank: true
+  },
+  {
      name: "Emilie Elisabeth Milan Nielsen",
      img: "/emilie-nielsen1.jpg",
      desc: "Research Assistant",
      blank: true
-  },
-  {
-    name: "Georgios Bolis",
-    img: "/Yorgos.jpg",
-    desc: "Lab Assistant",
-    blank: true
   },
   {
      name: "Katerina Vougiatzi",
