@@ -132,16 +132,16 @@ export const members = [
      blank: true
   },
   {
-     name: "Valia Margaritaki",
-     img: "/Valia_2.jpg",
-     desc: "Ph.D. Fellow",
-     blank: true
-  },
-  {
     name: "Georgios Kyriakakis",
     img: "/GiorgosK.jpg",
     desc: "Ph.D. Fellow",
     blank: true
+  },
+  {
+     name: "Valia Margaritaki",
+     img: "/Valia_2.jpg",
+     desc: "Ph.D. Fellow",
+     blank: true
   },
   {
     name: "Georgios Bolis",
