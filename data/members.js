@@ -32,17 +32,16 @@ export const members = [
       desc: "Facility Manager",
       blank: true
   },
+    {
+      name: "Konstantin Balashev",
+      img: "/KonstantinBalashev.jpg",
+      desc: "Professor",
+      blank: true
+  },
   {
       name: "Errika Voutyritsa",
       img: "/Errika.jpg",
       desc: "Post-doctoral Fellow",
-      blank: true
-  },
-  {
-      name: "Gareth Gerald Doherty",
-      img: "/gareth.jpg",
-      desc: "Joint Post-doctoral Fellow with Prof. Knud Jørgen Jensen",
-      linkedin: "gareth-doherty-400ba720a",
       blank: true
   },
   {
