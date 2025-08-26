@@ -34,7 +34,7 @@ export const members = [
   },
     {
       name: "Konstantin Balashev",
-      img: "/KonstantinBalashev.jpg",
+      img: "/KonstantinBalashev_cut.jpg",
       desc: "Professor",
       blank: true
   },
@@ -49,15 +49,6 @@ export const members = [
       img: "/Artu_2.jpg",
       email: "artu.breuer@chem.ku.dk",
       desc: "Post-doctoral Fellow",
-      blank: true
-  },
-  {
-      name: "Jacob Kæstel-Hansen",
-      linkedin: "jacob-kæstel-hansen-502008115",
-      img: "/jakob-hansen.jpg",
-      desc: "Post-doctoral Fellow",
-      email: "jkh@chem.ku.dk",
-      twitter: "KaestelHansen",
       blank: true
   },
   {
@@ -167,12 +158,6 @@ export const members = [
      blank: true
   },
   {
-     name: "Wiktor Kuzajewski",
-     img: "/Wiktor.jpg",
-     desc: "Master Student",
-     blank: true
-  },
-  {
     name: "Georgios Sevastakis",
     img: "/GSev.jpg",
     desc: "Master Student",
@@ -214,22 +199,5 @@ export const members = [
     desc: "Erasmus+ Student",
     blank: true
   },
-  {
-    name: "Theodor Redvall",
-    img: "/Theo.jpg",
-    desc: "Bachelor Student",
-    blank: true
-  },
-  {
-    name: "August Baggesen Hilger",
-    img: "/August.jpg",
-    desc: "Bachelor Student",
-    blank: true
-  },
-  {
-    name: "Laura Boiesen Wedendahl",
-    img: "/Laura.jpg",
-    desc: "Bachelor Student",
-    blank: true
-  },
+
 ];
