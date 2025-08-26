@@ -199,5 +199,10 @@ export const members = [
     desc: "Erasmus+ Student",
     blank: true
   },
-
+  {
+    name: "Theodor Redvall",
+    img: "/Theo.jpg",
+    desc: "Bachelor Student",
+    blank: true
+  },
 ];
