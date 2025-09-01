@@ -1,6 +1,6 @@
 export const pictures = [
   {
-    img: 'group.jpg',
+    img: 'BBQ25.jpg',
     title: 'Random'
   },
   {

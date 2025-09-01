@@ -1,15 +1,15 @@
 export const news = [
-    {
-    date: 'June 2025',
-    image: 'BBQ25.jpg',
-    title: "Annual Hatzakis Lab BBQ!",
-    text: ``,
-  },
   {
     date: 'August 2025',
     title: "Professor Konstantin Balashev Joins Us as Visiting Scholar",
     image: 'KonstantinBalashev.jpg',
     text: "We are delighted to welcome Professor Konstantin Balashev from the Faculty of Chemistry and Pharmacy at Sofia University 'St. Kliment Ohridski' and Medical University – Pleven (part-time), who is joining us as a visiting scholar this month! During his stay he will be conducting research on the molecular mechanisms by which the neurotoxin Vipoxin interacts with model membrane systems (monolayers, bilayers, vesicles) and living cells. By combining advanced single-particle and single-molecule tracking techniques, the work aims to uncover new insights into toxin - membrane interactions at the nanoscale. This visit is supported by the European initiative Sofia University Marking Momentum for Innovation and Technological Transfer (SUMMIT).",
+  },
+  {
+    date: 'June 2025',
+    image: 'BBQ25.jpg',
+    title: "Annual Hatzakis Lab BBQ!",
+    text: ``,
   },
   {
     date: 'May 2025',
