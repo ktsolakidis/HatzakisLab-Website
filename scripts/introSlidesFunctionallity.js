@@ -4,9 +4,9 @@ let descriptionHolder = document.querySelector('#videos--descriptions')
 
 let purple = document.querySelector('#purple');
 let annete = document.querySelector('#annete');
-let group = document.querySelector('#group');
+let BBQ25 = document.querySelector('#group');
 
-let slides = [purple, annete, group];
+let slides = [purple, annete, BBQ25];
 
 let dots = document.querySelectorAll('.dot');
 
