@@ -1,4 +1,10 @@
 export const news = [
+    {
+    date: 'June 2025',
+    image: 'BBQ25.jpg',
+    title: "Annual Hatzakis Lab BBQ!",
+    text: ``,
+  },
   {
     date: 'August 2025',
     title: "Professor Konstantin Balashev Joins Us as Visiting Scholar",
