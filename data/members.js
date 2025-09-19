@@ -83,12 +83,6 @@ export const members = [
       blank: true
   },
   {
-      name: "Richard Michael",
-      img: "/newfigure.jpg",
-      desc: "Ph.D. Fellow (Main supervisor Wouter Boomsma)",
-      blank: true
-  },
-  {
       name: "Emily Winther Sørensen",
       img: "/Emily1.jpg",
       email: "es@chem.ku.dk",
@@ -141,7 +135,7 @@ export const members = [
   },
   {
     name: "Victoria Kladny",
-    img: "/newfigure.jpg",
+    img: "/Vic.jpeg",
     desc: "Ph.D. Fellow",
     blank: true
   },
