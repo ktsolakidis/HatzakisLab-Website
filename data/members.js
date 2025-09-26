@@ -180,6 +180,12 @@ export const members = [
     img: "/Freya.jpg",
     desc: "Master Student",
     blank: true
+  },
+  {
+    name: "Nasia Vapori",
+    img: "/Nasia.jpg",
+    desc: "Master Student",
+    blank: true
   },  
   {
     name: "Thaleia Konstantinidou",
