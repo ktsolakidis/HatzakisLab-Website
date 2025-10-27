@@ -32,18 +32,6 @@ export const members = [
       desc: "Facility Manager",
       blank: true
   },
-    {
-      name: "Konstantin Balashev",
-      img: "/KonstantinBalashev_cut.jpg",
-      desc: "Professor",
-      blank: true
-  },
-  {
-      name: "Errika Voutyritsa",
-      img: "/Errika.jpg",
-      desc: "Post-doctoral Fellow",
-      blank: true
-  },
   {
       name: "Artu Breuer",
       img: "/Artu_2.jpg",
@@ -146,28 +134,10 @@ export const members = [
      blank: true
   },
   {
-     name: "Katerina Vougiatzi",
-     img: "/Katerina.jpg",
-     desc: "Master Student",
-     blank: true
-  },
-  {
     name: "Georgios Sevastakis",
     img: "/GSev.jpg",
     desc: "Master Student",
     blank: true
-  },
-  {
-    name: "Antonio Maschio",
-    img: "/Antonio.jpg",
-    desc: "Master Student",
-    blank: true
-  },
-  {
-      name: "Anton Pedersen",
-      img: "/Anton.jpg",
-      desc: "Master Student",
-      blank: true
   },
   {
     name: "Sascha Valentin Brown",
@@ -191,12 +161,6 @@ export const members = [
     name: "Thaleia Konstantinidou",
     img: "/newfigure.jpg",
     desc: "Master Student",
-    blank: true
-  },
-  {
-    name: "Vasilis Papageorgiou",
-    img: "/Vasilis.jpg",
-    desc: "Erasmus+ Student",
     blank: true
   },
   {
