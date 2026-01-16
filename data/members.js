@@ -46,11 +46,9 @@ export const members = [
       blank: true
   },
   {
-      name: "Freja S.-R. Bohr",
-      linkedin: "freja-bohr-610100139",
-      email: "bohr@chem.ku.dk",
-      img: "/freja-bohr.jpg",
-      desc: "Ph.D. Fellow",
+      name: "Dimitrios Kolokouris",
+      img: "/newfigure.jpg",
+      desc: "Post-doctoral Fellow",
       blank: true
   },
   {
@@ -60,6 +58,14 @@ export const members = [
       orcid: "0000-0002-0118-4388",
       email: "fhs@chem.ku.dk",
       twitter: "frnkschlz",
+      desc: "Post-doctoral Fellow",
+      blank: true
+  },
+  {
+      name: "Freja S.-R. Bohr",
+      linkedin: "freja-bohr-610100139",
+      email: "bohr@chem.ku.dk",
+      img: "/freja-bohr.jpg",
       desc: "Ph.D. Fellow",
       blank: true
   },
@@ -79,7 +85,7 @@ export const members = [
   },
   {
       name: "Konstantinos Tsolakidis",
-      img: "/kostas2.jpg",
+      img: "/Kostas_2.jpg",
       email: "kt@chem.ku.dk",
       linkedin: "/konstantinos-tsolakidis/",
       desc: "Software Engineer",
@@ -128,18 +134,6 @@ export const members = [
     blank: true
   },
   {
-     name: "Emilie Elisabeth Milan Nielsen",
-     img: "/emilie-nielsen1.jpg",
-     desc: "Research Assistant",
-     blank: true
-  },
-  {
-    name: "Georgios Sevastakis",
-    img: "/GSev.jpg",
-    desc: "Master Student",
-    blank: true
-  },
-  {
     name: "Sascha Valentin Brown",
     img: "/Sascha.jpg",
     desc: "Master Student",
@@ -157,12 +151,6 @@ export const members = [
     desc: "Master Student",
     blank: true
   },  
-  {
-    name: "Thaleia Konstantinidou",
-    img: "/newfigure.jpg",
-    desc: "Master Student",
-    blank: true
-  },
   {
     name: "Theodor Redvall",
     img: "/Theo.jpg",
