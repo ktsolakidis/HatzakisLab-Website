@@ -51,6 +51,12 @@ export const members = [
       desc: "Post-doctoral Fellow",
       blank: true
   },
+    {
+      name: "Mikkel Liisberg",
+      img: "/newfigure.jpg",
+      desc: "Post-doctoral Fellow",
+      blank: true
+  },
   {
       name: "Frank Høgh Schulz",
       img: "/Frank_2.jpg",
@@ -150,10 +156,28 @@ export const members = [
     img: "/Nasia.jpg",
     desc: "Master Student",
     blank: true
-  },  
+  },
   {
-    name: "Theodor Redvall",
-    img: "/Theo.jpg",
+    name: "Karolína Zemene",
+    img: "/newfigure.jpg",
+    desc: "Master Student",
+    blank: true
+  },
+    {
+    name: "Gabriel Duchement",
+    img: "/newfigure.jpg",
+    desc: "Master Student",
+    blank: true
+  },    
+  {
+    name: "Khadijah Mousa",
+    img: "/newfigure.jpg",
+    desc: "Bachelor Student",
+    blank: true
+  },
+    {
+    name: "Katja Victoria Di Leo",
+    img: "/newfigure.jpg",
     desc: "Bachelor Student",
     blank: true
   },
