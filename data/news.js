@@ -3,7 +3,7 @@ export const news = [
   {
     date: 'February 2026',
     title: "From Machine Learning to the Blood–Brain Barrier: Highlights from Our Lab at BPS 2026",
-    image: 'BPS_talks_2026.png',
+    image: 'BPS_talks_2026.jpg',
     text: " At the 2026 Biophysical Society Meeting in San Francisco, our group delivered an exceptional range of presentations—spanning machine learning, nanoparticle engineering, small-molecule optimization, natural-language analysis tools, and advanced 4D imaging. This collection of talks reflected not only the diversity of our research but also the growing impact of our interdisciplinary approach. From AI-accelerated microscopy pipelines that turn terabyte-scale datasets into actionable insights, to frameworks that refine molecular design, to natural-language platforms that democratize computational analysis, our contributions demonstrated how intelligent tools can fundamentally reshape experimental biology. We also showcased cutting-edge work using high-resolution 4D imaging to visualize blood–brain barrier transport at the single-vesicle level, providing mechanistic clarity on antibody fragment trafficking in endothelial cells. Together, these presentations highlighted how our lab brings together machine learning, quantitative imaging, molecular engineering, and next-generation computational frameworks to push the boundaries of modern biophysics and accelerate biological discovery across scales, from molecules to cells to systems.",
   },
   {
