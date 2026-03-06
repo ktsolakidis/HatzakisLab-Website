@@ -106,7 +106,7 @@ export const news = [
   },
   {
     date: 'June 2024',
-    image:'valia_defense.jpeg',
+    image:'graduation.png',
     title: "Congratulations on your thesis defense, Valia!",
     text: `Warmest congratulations to Valia on the successful defense of her thesis! Her outstanding research on 'Direct observation of lipid nanoparticles loading efficiency, release kinetics, and cellular entry pathways by single particle studies' marks a major milestone in the field. This is a truly remarkable achievement. Well done, Valia!`,
   },
