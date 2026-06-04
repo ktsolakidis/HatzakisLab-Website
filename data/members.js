@@ -152,7 +152,7 @@ export const members = [
     blank: true
   },
   {
-    name: "Nasia Vapori",
+    name: "Vasia Nasia",
     img: "/Nasia.jpg",
     desc: "Master Student",
     blank: true
