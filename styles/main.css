@@ -1,3 +1,29 @@
+/* ============================================================
+   DESIGN TOKENS — change these to re-theme the whole site.
+   Breakpoints used across the stylesheets:
+     tablet and below : max-width: 1024px
+     phone  and below : max-width: 767px  (header switches at 600px)
+   ============================================================ */
+:root {
+    /* colours */
+    --accent:        rgb(254, 98, 98);
+    --accent-hover:  rgb(212, 83, 83);
+    --panel-bg:      rgba(0, 0, 0, .8);
+    --footer-bg:     rgb(10, 10, 11);
+    --text-light:    #ffffff;
+    --text-muted:    rgb(170, 170, 170);
+    --text-dim:      rgb(110, 110, 110);
+    --text-nav:      rgb(181, 181, 181);
+
+    /* fonts */
+    --font-head: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --font-alt:  'Montserrat', sans-serif;
+
+    /* effects */
+    --shadow-panel: 3px 3px 5px rgb(0, 0, 0);
+}
+
 body, html {
     margin: 0;
     padding: 0;

@@ -160,6 +160,40 @@ li{
 
 
 
+/* ============================ TABLET (768px - 1024px) ============================ */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* stack the image, description and publications instead of squeezing
+       three columns into the tablet width */
+    .project--card {
+        flex-direction: column;
+    }
+
+    .project--card > img {
+        width: 55%;
+        object-fit: contain;
+        margin: 0 auto 1.5rem;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .publications {
+        width: 100%;
+        padding: 0;
+    }
+
+    #extra--fret {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* ============================ PHONE (<= 767px) ============================ */
+
 @media only screen and (max-width: 767px) {
 
     #projects{

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     TEMP FUN PAGE (safe to delete to revert). Linked only from
+     Nasia's member photo via the `funPage` flag in data/members.js.
+     ============================================================ -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASIA 👑</title>
+    <link rel="icon" type="image/png" href="../images/team/Nasia.jpg">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body {
+            min-height: 100%;
+            overflow-x: hidden;
+            font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff6ec4, #7873f5, #4ADEDE, #ffd86e, #ff6ec4);
+            background-size: 400% 400%;
+            animation: bg 12s ease infinite;
+            text-align: center;
+        }
+
+        @keyframes bg {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* -------- giant title -------- */
+        .title {
+            font-size: clamp(3rem, 18vw, 14rem);
+            font-weight: 900;
+            letter-spacing: .1em;
+            padding: 2rem 1rem 0;
+            color: #fff;
+            text-shadow: 4px 4px 0 #ff2d95, 8px 8px 0 #7873f5, 12px 12px 0 rgba(0,0,0,.2);
+            animation: pop 1.2s ease infinite alternate;
+        }
+
+        @keyframes pop {
+            from { transform: scale(1) rotate(-2deg); }
+            to   { transform: scale(1.06) rotate(2deg); }
+        }
+
+        .subtitle {
+            font-size: clamp(1.1rem, 4vw, 2.2rem);
+            color: #fff;
+            margin: .5rem 0 1.5rem;
+            text-shadow: 2px 2px 0 #7873f5;
+        }
+
+        /* -------- scrolling marquee of names -------- */
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            background: rgba(255,255,255,.25);
+            padding: .6rem 0;
+            font-size: clamp(1rem, 3vw, 1.8rem);
+            font-weight: 800;
+            color: #4a1a6b;
+        }
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: slide 14s linear infinite;
+        }
+        @keyframes slide {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-100%); }
+        }
+
+        /* -------- the wall of VASIA -------- */
+        .wall {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 10px;
+            padding: 1.5rem;
+        }
+
+        .wall figure {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 14px rgba(0,0,0,.25);
+            animation: bob 3s ease-in-out infinite;
+        }
+        .wall img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            display: block;
+        }
+        .wall figcaption {
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            background: rgba(255, 45, 149, .8);
+            color: #fff;
+            font-weight: 900;
+            font-size: .8rem;
+            letter-spacing: .15em;
+            padding: 3px 0;
+        }
+
+        @keyframes bob {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50%      { transform: translateY(-8px) rotate(1.5deg); }
+        }
+
+        /* one spinning hero image in the middle-ish */
+        .wall figure.spin { animation: spin 6s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .footer-note {
+            padding: 2rem 1rem 3rem;
+            color: #fff;
+            font-size: 1rem;
+            text-shadow: 1px 1px 0 #7873f5;
+        }
+
+        .back {
+            display: inline-block;
+            margin: 1rem auto 2rem;
+            padding: .8rem 1.6rem;
+            border-radius: 999px;
+            background: #fff;
+            color: #ff2d95;
+            font-weight: 900;
+            text-decoration: none;
+            box-shadow: 0 4px 0 #b30063;
+            transition: transform .1s;
+        }
+        .back:active { transform: translateY(3px); box-shadow: 0 1px 0 #b30063; }
+
+        /* floating emoji hearts */
+        .heart {
+            position: fixed;
+            bottom: -50px;
+            font-size: 2rem;
+            animation: rise linear infinite;
+            pointer-events: none;
+            z-index: 5;
+        }
+        @keyframes rise {
+            to { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="title">VASIA</h1>
+    <p class="subtitle">👑 aka VASIOULA · GLIKOULINIASI 👑</p>
+
+    <div class="marquee">
+        <span>✨ VASIA ✨ VASIOULA ✨ GLIKOULINIASI ✨ VASIA ✨ VASIOULA ✨ GLIKOULINIASI ✨ best master student ✨ 10/10 ✨ legend ✨ VASIA ✨ VASIOULA ✨ GLIKOULINIASI ✨</span>
+    </div>
+
+    <!-- wall of VASIA (filled by the tiny script below) -->
+    <div class="wall" id="wall"></div>
+
+    <p class="footer-note">Made with 💖 and zero scientific rigour. Temporary — enjoy it while it lasts.</p>
+
+    <script>
+        // spam her image many times, each one messed up a different way
+        const wall = document.getElementById('wall');
+        const COUNT = 60;
+
+        const names   = ['VASIA', 'VASIOULA', 'GLIKOULINIASI'];
+        // filters: inverted, black & white, hue-shifted, oversaturated...
+        const filters = [
+            'invert(1)',
+            'grayscale(1)',
+            'grayscale(1) contrast(1.6)',
+            'hue-rotate(140deg) saturate(2)',
+            'invert(1) hue-rotate(180deg)',
+            'sepia(1) saturate(4) hue-rotate(300deg)',
+            'contrast(2) brightness(1.2)',
+            'none'
+        ];
+        // transforms: flipped, upside-down, twisted...
+        const transforms = [
+            'scaleX(-1)',            // flipped
+            'scaleY(-1)',            // reverted / upside down
+            'rotate(180deg)',
+            'skew(12deg, 8deg)',     // twisted
+            'rotate(90deg) scaleX(-1)',
+            'skew(-15deg) scaleY(-1)',
+            'rotate(-12deg)',
+            'none'
+        ];
+        const pick = a => a[Math.floor(Math.random() * a.length)];
+
+        for (let i = 0; i < COUNT; i++) {
+            const fig = document.createElement('figure');
+            if (i === Math.floor(COUNT / 2)) fig.classList.add('spin');
+            // stagger the bob animation so they don't all move in sync
+            fig.style.animationDelay = (Math.random() * 3).toFixed(2) + 's';
+
+            const img = document.createElement('img');
+            img.src = '../images/team/Nasia.jpg';
+            img.alt = 'Vasia ' + (i + 1);
+            img.style.filter = pick(filters);
+            img.style.transform = pick(transforms);
+
+            const cap = document.createElement('figcaption');
+            cap.textContent = pick(names) + ' #' + (i + 1);
+
+            fig.appendChild(img);
+            fig.appendChild(cap);
+            wall.appendChild(fig);
+        }
+
+        // floating hearts
+        const emojis = ['💖', '👑', '✨', '🌸', '💅', '🎉'];
+        setInterval(() => {
+            const h = document.createElement('div');
+            h.className = 'heart';
+            h.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            h.style.left = Math.random() * 100 + 'vw';
+            h.style.animationDuration = (4 + Math.random() * 4).toFixed(2) + 's';
+            h.style.fontSize = (1.2 + Math.random() * 2).toFixed(2) + 'rem';
+            document.body.appendChild(h);
+            setTimeout(() => h.remove(), 8000);
+        }, 350);
+    </script>
+
+</body>
+
+</html>

@@ -59,13 +59,14 @@ const toggleMenu = () => {
 
 
 
-if (window.innerWidth < 600) {
+// hamburger menu is active on tablets and phones (<= 1024px)
+if (window.innerWidth <= 1024) {
 
     for(let i=0;i<headerLi.length; i++){
         headerLi[i].addEventListener('click',toggleMenu)
      }
 
-    
+
     menuBar.addEventListener('click', toggleMenu)
 
 }

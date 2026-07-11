@@ -165,13 +165,10 @@ video {
     padding: 4rem 2rem;
     margin-top: 10rem;
     box-sizing: border-box;
-    background-color: rgb(0, 0, 0,.8);
+    background-color: var(--panel-bg);
     z-index: 3;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/mission.png'); */
-    /* background-image: url('/images/mission.png'); */
     background-size: cover;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
-
+    box-shadow: var(--shadow-panel);
 }
 
 #our--mission {
@@ -225,17 +222,10 @@ video {
     padding: 4rem;
     box-sizing: border-box;
     margin-top: 5rem;
-    background-color: rgb(20, 20, 22);
+    background-color: var(--panel-bg);
     z-index: 3;
-    background-color: rgb(0, 0, 0,.8);
-    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/mission.png'); */
-    /* background-image: url('/images/mission.png'); */
     background-size: cover;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
-
-
-
-
+    box-shadow: var(--shadow-panel);
 }
 
 #whoweare--text {
@@ -281,15 +271,12 @@ video {
     padding: 2rem;
     box-sizing: border-box;
     margin-top: 5rem;
-    background-color: rgb(0, 0, 0,.8);
+    background-color: var(--panel-bg);
     z-index: 3;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/mission.png'); */
-    /* background-image: url('/images/mission.png'); */
     background-size: cover;
     color: white;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    box-shadow: var(--shadow-panel);
     margin-bottom: 10rem;
-
 }
 
 .fund > p{
@@ -363,6 +350,77 @@ i{
 
 
 /* ---------------------------------------------------------------------------------------------- */
+
+
+/* ============================ TABLET (768px - 1024px) ============================ */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* hero: stack the logo above the title and scale the type down so it
+       no longer collides with the header */
+    #in--video--logo {
+        flex-direction: column;
+        align-items: center;
+        top: 7rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #logo--image--main > img {
+        height: 8rem;
+    }
+
+    #logo--text--main {
+        height: auto;
+        align-items: center;
+    }
+
+    #logo--text--main > h3 {
+        font-size: 44px;
+        letter-spacing: 12px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #logo--text--main > h2 {
+        font-size: 22px;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #learn--more {
+        width: auto;
+        top: 88vh;
+    }
+
+    /* content panels: stack text + image and give the copy room to breathe */
+    #mission {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #our--mission {
+        width: 85%;
+    }
+
+    #our--mission > p {
+        width: 100%;
+    }
+
+    #mission--image {
+        width: 85%;
+    }
+
+    #whoweare--text {
+        width: 85%;
+    }
+
+    .fund > img {
+        width: 16rem;
+    }
+}
 
 
 

@@ -1,3 +1,10 @@
+/* ============================================================
+   HEADER / NAVIGATION
+   Breakpoints (see main.css for the shared scale):
+     > 1024px  -> full horizontal nav
+     <= 1024px -> hamburger menu (tablet + phone)
+   ============================================================ */
+
 #header {
     width: 100%;
     height: auto;
@@ -10,12 +17,12 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 6;
-    color: rgb(255, 255, 255);
+    color: var(--text-light);
 }
 
 
-#header:hover{
-    background-color: rgb(0, 0, 0,.6);
+#header:hover {
+    background-color: rgba(0, 0, 0, .6);
     transition: .3s ease-in-out;
 }
 
@@ -27,12 +34,9 @@
     width: 30rem;
     overflow: visible;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-head);
     opacity: 0;
-
-
 }
-
 
 
 #logo--logo {
@@ -41,15 +45,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
-#logo--logo>img {
+#logo--logo > img {
     width: auto;
     height: 4rem;
     margin-left: .5rem;
-
 }
 
 #logo--text {
@@ -57,30 +59,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     width: 100%;
     height: 6rem;
     box-sizing: border-box;
     padding-top: 1rem;
-
 }
 
 #hatzakis--lab {
-
     font-size: 2.3rem;
     letter-spacing: 3px;
     margin: 0;
     width: 100%;
     font-weight: 300;
     text-align: left;
-}
-
-#single--molecule {
-
-    font-size: 1rem;
-    width: 90%;
-    letter-spacing: 3px;
-    margin-top: 0rem;
 }
 
 
@@ -90,165 +81,143 @@
     align-items: center;
     justify-content: space-around;
     width: 60%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-head);
     font-size: 1.2rem;
     padding: .5rem;
-    font-weight: 100;
+    font-weight: 500;
     border-radius: 2rem;
     margin-right: 2rem;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
 }
-
-
-
 
 
 a {
     text-decoration: none;
-    color: rgb(181, 181, 181);
+    color: var(--text-nav);
     padding: .5rem;
-
 }
 
 
 #header li {
     cursor: pointer;
-    letter-spacing: 0px;
     font-size: 1rem;
     letter-spacing: 1px;
-    color: rgb(181, 181, 181);
-    font-family: 'Open Sans', sans-serif;
+    color: var(--text-nav);
+    font-family: var(--font-body);
 }
 
 
-.selected{
-    border-top: 2px solid rgb(254, 98, 98);
-    color: rgb(254, 98, 98);
+.selected {
+    border-top: 2px solid var(--accent);
+    color: var(--accent);
 }
 
-a:hover{
-    color: rgb(212, 83, 83);
+a:hover {
+    color: var(--accent-hover);
     transition: .1s ease-in;
-
 }
 
 
-#menu--bar{
+#menu--bar {
     display: none;
 }
 
 
+/* ---------- TABLET + PHONE: hamburger menu (<= 1024px) ---------- */
 
+@media only screen and (max-width: 1024px) {
 
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 4;
+    }
 
+    #header:hover {
+        background-color: rgba(0, 0, 0, .98);
+        transition: .3s ease-in-out;
+    }
 
+    #wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 1rem;
+    }
 
-
-
-
-
-
-
-
-
-
-/* ---------------------------------------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-
-    #menu--bar{
+    #menu--bar {
         display: flex;
         flex-direction: column;
         width: 3rem;
         list-style-type: none;
         margin: .5rem;
-    
+        cursor: pointer;
     }
 
-
-    .bar{
+    .bar {
         border: 2px solid rgb(238, 238, 238);
         width: 100%;
         margin: .15rem;
         border-radius: 1rem;
     }
 
-
-  #header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    z-index: 4;
-  }
-
-  #header:hover{
-    background-color: rgb(0, 0, 0,.98);
-    transition: .3s ease-in-out;
-}
-
-
-    
-    
-
+    /* keep the header logo on tablets, hide it on phones (the hero already
+       shows a logo on small screens) */
     #logo {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        width: 30rem;
-        overflow: visible;
-        cursor: pointer;
-        font-family: 'Poppins', sans-serif;
-        display: none;
-    
-    
+        width: auto;
+    }
+
+    #logo--logo > img {
+        height: 3rem;
+    }
+
+    #hatzakis--lab {
+        font-size: 1.6rem;
     }
 
     #header > ul {
-        list-style-type: none;
-        display: none;
+        display: none;              /* toggled open by scripts/responsive.js */
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-        font-family: 'Montserrat', sans-serif;
-        padding: .2rem;
-        font-weight: 100;
-        border-radius: 2rem;
-        margin-right: 2rem;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
-
-    
+        margin: 0;
+        padding: 1rem .2rem;
+        /* solid backdrop so the open menu stays readable over page content
+           (touch devices never trigger the header :hover state) */
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        z-index: 5;
     }
 
-    #header  a {
+    #header a {
         cursor: pointer;
-        letter-spacing: 0px;
         font-size: 1rem;
         letter-spacing: 2px;
         color: rgb(198, 198, 198);
-        font-family: 'Open Sans', sans-serif;
+        font-family: var(--font-body);
         padding: .4rem;
     }
 
-    #header a.selected{
+    #header a.selected {
         border-top: none;
-        color: rgb(254, 98, 98);
+        color: var(--accent);
     }
-    
+}
 
-    
+
+/* ---------- PHONE ONLY (<= 600px): hide the header logo ---------- */
+
+@media only screen and (max-width: 600px) {
+
+    #logo {
+        display: none;
+    }
+
+    #wrapper {
+        justify-content: flex-start;
+    }
 }

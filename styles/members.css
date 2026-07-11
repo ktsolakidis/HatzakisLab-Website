@@ -178,11 +178,32 @@ body {
 /* ---------------------------------------------------------------------------------------------- */
 
 
+/* ============================ TABLET (768px - 1024px) ============================ */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #our--members {
+        margin-top: 7rem;
+    }
+
+    #our--members--text {
+        width: 70%;
+    }
+
+    /* fit two (or more) member cards per row instead of one */
+    #members--container {
+        width: 92%;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .member--card {
+        width: 16rem;
+    }
+}
 
 
-
-
-
+/* ============================ PHONE (<= 767px) ============================ */
 
 
 @media only screen and (max-width: 767px) {
@@ -348,7 +369,6 @@ body {
     
     
     .fa:hover {
-        transform: scale();
         background-color: #202020;
         color: white;
     }

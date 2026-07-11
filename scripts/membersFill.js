@@ -50,11 +50,17 @@ members.forEach(member => {
     </ul>
     `
 
+    // TEMP (remove this block + the plain <img> fallback to revert):
+    // only members with a `funPage` field get their photo wrapped in a link
+    const memberImg = member?.funPage
+        ? `<a href="./${member.funPage}"><img class="member--pic" src="../images/team/${member.img}" alt=""></a>`
+        : `<img class="member--pic" src="../images/team/${member.img}" alt="">`
+
     membersContainer.insertAdjacentHTML('beforeend',
             `<div class="member--card">
                 <div class="image--media--container">
                      ${ memberMedia.length > 90 ? memberMedia : ''}
-                    <img class="member--pic" src="../images/team/${member.img}" alt="">
+                    ${memberImg}
                 </div>
                 <p class="member--name">${member.name}</p>
                 <p class="member--desc">${member.desc}</p>

@@ -165,6 +165,49 @@ p.text{
 
 
 
+    /* ============================ TABLET (768px - 1024px) ============================ */
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+        #news--container {
+            width: 92%;
+        }
+
+        /* stack image above text so the copy is no longer crushed into a
+           narrow justified column */
+        .news--card {
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+
+        .img--div {
+            justify-content: center;
+            padding: 2rem 2rem 0;
+        }
+
+        .img--div > img {
+            width: 55%;
+        }
+
+        .info {
+            width: 90%;
+            margin-left: 0;
+            align-items: center;
+        }
+
+        p.title {
+            text-align: center;
+        }
+
+        p.text {
+            width: 92%;
+        }
+    }
+
+
+    /* ============================ PHONE (<= 767px) ============================ */
+
     @media only screen and (max-width: 767px) {
 
 

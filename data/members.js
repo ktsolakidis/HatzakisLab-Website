@@ -152,10 +152,11 @@ export const members = [
     blank: true
   },
   {
-    name: "Vasia Nasia",
+    name: "Nasia Vapori",
     img: "/Nasia.jpg",
     desc: "Master Student",
-    blank: true
+    blank: true,
+    funPage: "vasia.html"   // TEMP (remove to revert): links her photo to the fun page
   },
   {
     name: "Karolína Zemene",
