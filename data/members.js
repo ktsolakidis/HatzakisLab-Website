@@ -18,6 +18,13 @@ export const members = [
       desc: "Assistant Professor",
       blank: true
   },
+    {
+      name: "Artu Breuer",
+      img: "/Artu_2.jpg",
+      email: "artu.breuer@chem.ku.dk",
+      desc: "Assistant Professor",
+      blank: true
+  },
   {
     name: "Tania Darphorn",
     img: "/tania.jpg",
@@ -30,13 +37,6 @@ export const members = [
       img: "/Aimilia_kx.jpg",
       email: "ain@chem.ku.dk",
       desc: "Facility Manager",
-      blank: true
-  },
-  {
-      name: "Artu Breuer",
-      img: "/Artu_2.jpg",
-      email: "artu.breuer@chem.ku.dk",
-      desc: "Post-doctoral Fellow",
       blank: true
   },
   {
@@ -55,6 +55,14 @@ export const members = [
       name: "Mikkel Liisberg",
       img: "/newfigure.jpg",
       desc: "Post-doctoral Fellow",
+      blank: true
+  },
+    {
+      name: "Konstantinos Tsolakidis",
+      img: "/Kostas_2.jpg",
+      email: "kt@chem.ku.dk",
+      linkedin: "/konstantinos-tsolakidis/",
+      desc: "Applied AI Engineer",
       blank: true
   },
   {
@@ -89,14 +97,7 @@ export const members = [
       desc: "Ph.D. Fellow",
       blank: true
   },
-  {
-      name: "Konstantinos Tsolakidis",
-      img: "/Kostas_2.jpg",
-      email: "kt@chem.ku.dk",
-      linkedin: "/konstantinos-tsolakidis/",
-      desc: "Software Engineer",
-      blank: true
-  },
+
   {
       name: "Steen W. Bender",
       desc: "Ph.D. Fellow",
@@ -135,15 +136,15 @@ export const members = [
   },
   {
     name: "Victoria Kladny",
-    img: "/Vic.jpeg",
+    img: "/newfigure.jpg",
     desc: "Ph.D. Fellow",
     blank: true
   },
   {
-    name: "Sascha Valentin Brown",
-    img: "/Sascha.jpg",
-    desc: "Master Student",
-    blank: true
+      name: "Santiago Urban Martinez",
+      img: "/newfigure.jpg",
+      desc: "Ph.D. Fellow, Lundbeck",
+      blank: true
   },
   {
     name: "Freya Reinhold",
@@ -170,16 +171,4 @@ export const members = [
     desc: "Master Student",
     blank: true
   },    
-  {
-    name: "Khadijah Mousa",
-    img: "/newfigure.jpg",
-    desc: "Bachelor Student",
-    blank: true
-  },
-    {
-    name: "Katja Victoria Di Leo",
-    img: "/newfigure.jpg",
-    desc: "Bachelor Student",
-    blank: true
-  },
 ];

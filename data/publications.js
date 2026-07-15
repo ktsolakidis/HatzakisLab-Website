@@ -1,5 +1,27 @@
 export const publications = [
     {
+    img: "https://badges.altmetric.com/?size=180&score=33&types=mbtttttt",
+    title: "Deep learning-assisted analysis of single-particle tracking for automated correlation between diffusion and function",
+    doi: "10.1038/s41592-025-02665-8",
+    author: "Kæstel-Hansen, J., et al.",
+    journal: "Nature Methods",
+    pages: "22, 1091",
+    year: 2025,
+    link: "https://www.nature.com/articles/s41592-025-02665-8"
+},
+
+    {
+    img: "https://badges.altmetric.com/?size=180&score=19&types=mbtttttt",
+    title: "Membrane bridges and nanodomain partitioning govern membrane protein targeting to lipid droplets",
+    doi: "10.1038/s41556-026-01963-3",
+    author: "Mizrak, A., et al.",
+    journal: "Nature Cell Biology",
+    pages: "28, 1235",
+    year: 2026,
+    link: "https://www.nature.com/articles/s41556-026-01963-3"
+    },
+
+    {
         img: "https://badges.altmetric.com/?size=180&amp;score=106&amp;types=mbtttttt",
         title: "SEMORE: SEgmentation and MORphological fingErprinting by machine learning automates super-resolution data analysis",
         doi: "10.1038/s41467-024-46106-0",
