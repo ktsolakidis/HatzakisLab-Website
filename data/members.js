@@ -39,20 +39,14 @@ export const members = [
       desc: "Facility Manager",
       blank: true
   },
-  {
-      name: "Janni Mortensen",
-      img: "/Janni_2.jpg",
+      {
+      name: "Mikkel Liisberg",
+      img: "/newfigure.jpg",
       desc: "Post-doctoral Fellow",
       blank: true
   },
   {
       name: "Dimitrios Kolokouris",
-      img: "/newfigure.jpg",
-      desc: "Post-doctoral Fellow",
-      blank: true
-  },
-    {
-      name: "Mikkel Liisberg",
       img: "/newfigure.jpg",
       desc: "Post-doctoral Fellow",
       blank: true
@@ -66,16 +60,6 @@ export const members = [
       blank: true
   },
   {
-      name: "Frank Høgh Schulz",
-      img: "/Frank_2.jpg",
-      linkedin: "frank-høgh-schulz-884719b1",
-      orcid: "0000-0002-0118-4388",
-      email: "fhs@chem.ku.dk",
-      twitter: "frnkschlz",
-      desc: "Post-doctoral Fellow",
-      blank: true
-  },
-  {
       name: "Freja S.-R. Bohr",
       linkedin: "freja-bohr-610100139",
       email: "bohr@chem.ku.dk",
@@ -83,21 +67,6 @@ export const members = [
       desc: "Ph.D. Fellow",
       blank: true
   },
-  {
-      name: "Sara Vogt Bleshøy",
-      img: "/Sara_nej.jpg",
-      email: "svb@chem.ku.dk",
-      desc: "Ph.D. Fellow",
-      blank: true
-  },
-  {
-      name: "Emily Winther Sørensen",
-      img: "/Emily1.jpg",
-      email: "es@chem.ku.dk",
-      desc: "Ph.D. Fellow",
-      blank: true
-  },
-
   {
       name: "Steen W. Bender",
       desc: "Ph.D. Fellow",
@@ -149,15 +118,20 @@ export const members = [
   {
     name: "Freya Reinhold",
     img: "/Freya.jpg",
+    desc: "Research Assistant",
+    blank: true
+  },
+    {
+    name: "Molly Jean Maud Turner",
+    img: "/newfigure.jpg",
     desc: "Master Student",
     blank: true
   },
   {
-    name: "Nasia Vapori",
-    img: "/Nasia.jpg",
+    name: "Julie Bernt Frederiksen",
+    img: "/newfigure.jpg",
     desc: "Master Student",
     blank: true,
-    funPage: "vasia.html"   // TEMP (remove to revert): links her photo to the fun page
   },
   {
     name: "Karolína Zemene",
@@ -170,5 +144,23 @@ export const members = [
     img: "/newfigure.jpg",
     desc: "Master Student",
     blank: true
-  },    
+  },
+      {
+    name: "Simos Damianidis",
+    img: "/newfigure.jpg",
+    desc: "Erasmus+ Student",
+    blank: true
+  }, 
+    {
+    name: "Ioannis Brotzakis",
+    img: "/newfigure.jpg",
+    desc: "Erasmus+ Student",
+    blank: true
+  },     
+    {
+    name: "Dominic Thanh Quang Tran",
+    img: "/newfigure.jpg",
+    desc: "Bachelor Student",
+    blank: true
+  }, 
 ];
