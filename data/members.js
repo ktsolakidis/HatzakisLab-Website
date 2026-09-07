@@ -105,7 +105,7 @@ export const members = [
   },
   {
     name: "Victoria Kladny",
-    img: "/newfigure.jpg",
+    img: "/Vic.jpeg",
     desc: "Ph.D. Fellow",
     blank: true
   },
@@ -123,7 +123,7 @@ export const members = [
   },
     {
     name: "Molly Jean Maud Turner",
-    img: "/newfigure.jpg",
+    img: "/Molly.jpg",
     desc: "Master Student",
     blank: true
   },
@@ -141,7 +141,7 @@ export const members = [
   },
     {
     name: "Gabriel Duchement",
-    img: "/newfigure.jpg",
+    img: "/Gabriel.jpg",
     desc: "Master Student",
     blank: true
   },
