@@ -47,7 +47,7 @@ export const members = [
   },
   {
       name: "Dimitrios Kolokouris",
-      img: "/newfigure.jpg",
+      img: "/dimitris.JPG",
       desc: "Post-doctoral Fellow",
       blank: true
   },
